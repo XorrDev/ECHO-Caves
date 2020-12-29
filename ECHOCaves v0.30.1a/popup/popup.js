@@ -39,7 +39,7 @@ function Confirm() {
         jsonParsed = JSON.parse(json);  
         chrome.storage.local.set({CustomThemeJSON: jsonParsed});
         document.getElementById("errTheme").style = "color:#5aff47;";
-        document.getElementById("errTheme").innerHTML = "Custom theme loaded! Refresh the page.";
+        document.getElementById("errTheme").innerHTML = "Reload tab for changes to take place.";
         document.getElementById("Revert").removeAttribute("disabled");
         document.getElementById("Revert").style = "background-color:#5A6E92;color:#FFFFFF;";
         }catch(error) {
@@ -148,19 +148,16 @@ function ClearInput() {
 function Checked() {
     var checkedBool = document.getElementById("checkbox").checked;
     chrome.storage.local.set({Checked: checkedBool});
-    switch(checkedBool) {
-        case true:
-            
-            break;
-        case false:
-
-            break;
-    }
+    document.getElementById("errTheme").style = "color:#5aff47;";
+    document.getElementById("errTheme").innerHTML = "Reload tab for changes to take place.";
 }
 chrome.storage.local.get('Checked', function (result) {
     if(typeof result.Checked !== 'undefined') {
         CheckedJSON = JSON.stringify(result.Checked);
         CheckedValue = JSON.parse(CheckedJSON);
         document.getElementById("checkbox").checked = CheckedValue;
+    }
+    else {
+        chrome.storage.local.set({Checked: true});
     }
 });

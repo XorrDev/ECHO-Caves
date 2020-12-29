@@ -1,8 +1,26 @@
-chrome.storage.local.get('CustomThemeJSON', function(result) {
-    CustomJSON = JSON.stringify(result.CustomThemeJSON);
-    CustomData = JSON.parse(CustomJSON);
-    if(CustomData !== "undefined" || CustomData !== "") {loadTheme();}
+
+chrome.storage.local.get('Checked', function (result) {
+    console.log(result.Checked);
+    if(typeof result.Checked !== 'undefined') {
+        CheckedJSON = JSON.stringify(result.Checked);
+        CheckedValue = JSON.parse(CheckedJSON);
+        if(CheckedValue == true) {
+            var path = chrome.extension.getURL('ECTheme.css');
+            $('head').append($('<link>')
+                .attr("rel","stylesheet")
+                .attr("type","text/css")
+                .attr("href", path)
+            );
+            
+            chrome.storage.local.get('CustomThemeJSON', function(result) {
+                CustomJSON = JSON.stringify(result.CustomThemeJSON);
+                CustomData = JSON.parse(CustomJSON);
+                if(CustomData !== "undefined" || CustomData !== "") {loadTheme();}
+            });
+        }
+    }
 });
+
 function loadTheme() {
     document.documentElement.style.setProperty("--PrimaryBackgroundColor", CustomData.Background.NewPrimaryBackgroundColor);
     document.documentElement.style.setProperty("--SecondaryBackgroundColor", CustomData.Background.NewSecondaryBackgroundColor);
