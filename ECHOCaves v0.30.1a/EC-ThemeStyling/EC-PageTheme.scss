@@ -1,0 +1,1074 @@
+/*
+******************************
+******************************
+******************************
+HOME PAGE (ccnth .echo-ntn .org)
+******************************
+******************************
+******************************
+*/
+:root {
+	--primarybackgroundcolor: #181818;
+	--secondarybackgroundcolor: #282828;
+	--tertiarybackgroundcolor: #383838;
+	--quaternarybackgroundcolor: #484848;
+	--quinarybackgroundcolor: #585858;
+	--primarytextcolor: #ffffff;
+	--secondarytextcolor: #B3B3B3;
+	--primaryaccenttextcolor: #CF86FF;
+	--secondaryaccenttextcolor: #00ACFF;
+	--primarygradecolor: #00FF00;
+	--secondarygradecolor: #00DF00;
+	--tertiarygradecolor: #59FF59;
+	--primarymenucolor: #585858;
+	--secondarymenucolor: #484848;
+}
+app-student-to-do {
+	.ng-star-inserted {
+		background-color: var(--PrimaryBackgroundColor) !important;
+	}
+}
+span {
+	.to-do-title {
+		color: var(--PrimaryTextColor) !important;
+		font-size: 18px;
+	}
+	.mat-button-toggle-label-content {
+		background-color: var(--QuaternaryBackgroundColor) !important;
+	}
+	.mat-option-text {
+		color: var(--PrimaryTextColor) !important;
+	}
+	.mat-button-wrapper {
+		color: var(--PrimaryTextColor) !important;
+		text-align: center !important;
+	}
+	.mat-content {
+		color: var(--PrimaryTextColor) !important;
+	}
+	strong {
+		u {
+			color: var(--PrimaryTextColor) !important;
+			background-color: var(--TertiaryBackgroundColor) !important;
+		}
+	}
+	.no-score {
+		.ng-star-inserted {
+			color: var(--PrimaryTextColor) !important;
+		}
+	}
+	.mat-expansion-indicator {
+		color: var(--PrimaryTextColor) !important;
+	}
+	span {
+		span {
+			color: var(--PrimaryTextColor) !important;
+		}
+		a {
+			color: var(--PrimaryAccentTextColor) !important;
+			font-weight: bold !important;
+			background-color: transparent !important;
+		}
+	}
+	a {
+		span {
+			background-color: transparent !important;
+			color: var(--PrimaryAccentTextColor) !important;
+		}
+	}
+	background-color: transparent !important;
+	.mat-badge-content {
+		background-color: var(--SecondaryAccentTextColor) !important;
+		color: #FFFFFF;
+	}
+	.description {
+		color: var(--PrimaryTextColor) !important;
+	}
+	.objective-color {
+		border-color: var(--PrimaryAccentTextColor) !important;
+	}
+	.objective-possible {
+		color: var(--PrimaryAccentTextColor) !important;
+	}
+	.percent {
+		.ng-star-inserted {
+			color: var(--PrimaryGradeColor) !important;
+		}
+	}
+	.letter {
+		.ng-star-inserted {
+			color: var(--SecondaryGradeColor) !important;
+		}
+	}
+	.points {
+		.ng-star-inserted {
+			color: var(--TertiaryGradeColor) !important;
+		}
+	}
+	.post-author {
+		color: var(--PrimaryAccentTextColor) !important;
+	}
+	.course-title {
+		font-weight: 1000 !important;
+	}
+	.app-title {
+		background: url("https://docs .google .com/drawings/d/e/2PACX-1vQj2TvnLq36uO3FL1h3O-_XpqsyMy2vPgqho1WTMUZuYJ0idWVBoACPrJtpmbiVslqE795FpC6whi2j/pub?w=1800&h=148") !important;
+		background-repeat: no-repeat !important;
+		background-size: 800px !important;
+		width: 440px !important;
+		height: 60px !important;
+		margin-left: -50px !important;
+		font-size: 0 !important;
+	}
+}
+mat-card {
+	background-color: var(--TertiaryBackgroundColor) !important;
+	mat-card-content {
+		p {
+			color: var(--SecondaryTextColor) !important;
+		}
+	}
+	.mat-card {
+		.ng-star-inserted {
+			border: 2px solid var(--PrimaryAccentTextColor) !important;
+		}
+		border: 2px solid var(--PrimaryAccentTextColor) !important;
+	}
+}
+div {
+	p {
+		span {
+			font-weight: 700 !important;
+			font-style: normal !important;
+			font-size: 15px;
+			color: var(--PrimaryTextColor) !important;
+		}
+	}
+	.mat-form-field-flex4 {
+		color: var(--PrimaryTextColor) !important;
+		background-color: var(--SecondaryBackgroundColor) !important;
+	}
+	color: var(--PrimaryTextColor) !important;
+	.mat-tab-labels {
+		background-color: var(--SecondaryMenuColor) !important;
+	}
+	.mat-drawer-inner-container {
+		background-color: var(--TertiaryBackgroundColor) !important;
+	}
+	.mat-list-item-content {
+		background-color: var(--TertiaryBackgroundColor) !important;
+	}
+	.top-content {
+		.app-background {
+			background-color: var(--TertiaryBackgroundColor) !important;
+			.xli-flex-enabled {
+				background-color: var(--TertiaryBackgroundColor) !important;
+			}
+		}
+	}
+	.gauge-progress {
+		border-style: none !important;
+		display: none !important;
+	}
+	.objective-title {
+		background-color: transparent;
+		font-weight: 700;
+		font-style: normal;
+	}
+	.objective-score {
+		background-color: var(--TertiaryBackgroundColor) !important;
+	}
+	a {
+		span {
+			color: var(--PrimaryAccentTextColor) !important;
+		}
+	}
+	.mat-expansion-panel-body {
+		background-color: var(--TertiaryBackgroundColor) !important;
+		border: 2px solid var(--PrimaryAccentTextColor) !important;
+	}
+	.side-menu-logo-ct {
+		background-image: url('https://docs .google .com/drawings/d/e/2PACX-1vQ_rWTP5cJh1N_rg6QI87_oCsoBKPN8pzTGzqwSmXsWd2iU4soYdVdAwxvCp53xENb358TpJX7z4j4T/pub?w=1150&h=150') !important;
+		background-repeat: no-repeat !important;
+		background-size: 410px 55px !important;
+		margin-top: 5px !important;
+		margin-left: 5px !important;
+	}
+	.blog-container {
+		background-color: var(--PrimaryBackgroundColor) !important;
+	}
+	.activity-html {
+		background-color: var(--TertiaryBackgroundColor) !important;
+		background-color: transparent;
+	}
+	.nav-footer {
+		background-color: var(--TertiaryBackgroundColor) !important;
+	}
+	.mat-paginator-container {
+		background-color: var(--TertiaryBackgroundColor) !important;
+	}
+	.list-ct {
+		background-color: var(--TertiaryBackgroundColor) !important;
+	}
+	.announcement-list {
+		background-color: var(--TertiaryBackgroundColor) !important;
+	}
+	div {
+		font {
+			background-color: transparent !important;
+			color: var(--PrimaryTextColor) !important;
+		}
+	}
+	ul {
+		li {
+			color: var(--PrimaryAccentTextColor) !important;
+			font-weight: bold !important;
+		}
+	}
+	span {
+		color: var(--PrimaryTextColor) !important;
+		a {
+			color: var(--PrimaryAccentTextColor) !important;
+			font-weight: bold !important;
+		}
+	}
+	.card-ct {
+		background-color: transparent !important;
+		outline-color: transparent !important;
+	}
+	.hero-image-spacer-bottom {
+		.app-background {
+			.ng-star-inserted {
+				background-color: var(--PrimaryBackgroundColor) !important;
+			}
+		}
+	}
+	.main {
+		.app-background {
+			background-color: var(--PrimaryBackgroundColor) !important;
+		}
+		.ng-star-inserted {
+			background-color: var(--PrimaryBackgroundColor) !important;
+		}
+	}
+	.card-top {
+		background-color: var(--SeconadryBackgroundColor) !important;
+	}
+	.fr-element {
+		.fr-view {
+			background-color: var(--PrimaryBackgroundColor) !important;
+		}
+	}
+	.links {
+		background-color: var(--SecondaryMenuColor) !important;
+	}
+	.color-band {
+		.rounded {
+			background-color: var(--QuinaryBackgroundColor) !important;
+		}
+	}
+	.mat-menu-content {
+		background-color: var(--QuaternaryBackgroundColor) !important;
+	}
+	.app-foreground-secondary-text {
+		.ng-star-inserted {
+			color: var(--PrimaryAccentTextColor) !important;
+		}
+	}
+	.fr-toolbar {
+		.fr-desktop {
+			.fr-top {
+				background-color: var(--QuinaryBackgroundColor) !important;
+			}
+		}
+	}
+	.fr-popup {
+		background-color: var(--QuinaryBackgroundColor) !important;
+	}
+	.fr-input-line {
+		label {
+			background-color: transparent !important;
+		}
+	}
+	.fr-newline {
+		background-color: transparent !important;
+	}
+	.open-animation-border {
+		.ng-star-inserted {
+			background-color: var(--PrimaryBackgroundColor) !important;
+		}
+	}
+	.mat-button-toggle-label-content {
+		background-color: var(--TertiaryBackgroundColor) !important;
+	}
+	.toolbar {
+		background-color: var(--PrimaryMenuColor) !important;
+	}
+	.main-page {
+		.app-background {
+			background-color: var(--PrimaryBackgroundColor) !important;
+		}
+	}
+	.questions {
+		.ng-star-inserted {
+			background-color: var(--PrimaryBackgroundColor) !important;
+		}
+	}
+	.mat-radio-outer-circle {
+		border-color: var(--SeconderyAccentTextColor) !important;
+	}
+	.save-status-line {
+		background-color: var(--QuaternaryBackgroundColor) !important;
+	}
+	.mat-radio-inner-circle {
+		background-color: var(--PrimaryAccentTextColor) !important;
+	}
+}
+ul {
+	background-color: transparent !important;
+	.fr-dropdown-list {
+		background-color: var(--SecondaryBackgroundColor) !important;
+	}
+}
+mat-label {
+	color: var(--PrimaryTextColor) !important;
+}
+mat-toolbar {
+	.mat-toolbar {
+		.main-toolbar {
+			.mat-elevation-z4 {
+				.app-primary-dark-background {
+					.app-primary-dark-contrast-color {
+						.buzz-main-header {
+							.mat-primary {
+								.mat-toolbar-single-row {
+									background-color: var(--PrimaryMenuColor) !important;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		.dialog-toolbar {
+			.mat-elevation-z4 {
+				.mat-toolbar-single-row {
+					background-color: var(--TertiaryBackgroundColor) !important;
+				}
+			}
+		}
+		.mat-toolbar-single-row {
+			.ng-untouched {
+				.ng-pristine {
+					.ng-valid {
+						.ng-star-inserted {
+							background-color: var(--PrimaryBackgroundColor) !important;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+mat-icon {
+	.mat-icon {
+		.notranslate {
+			.material-icons {
+				.mat-icon-no-color {
+					color: var(--SecondaryAccentTextColor) !important;
+				}
+			}
+			.activity-icon {
+				.fal {
+					.fa-folder {
+						.mat-icon-no-color {
+							.ng-star-inserted {
+								color: var(--SecondaryAccentTextColor) !important;
+							}
+						}
+					}
+					.fa-file {
+						.mat-icon-no-color {
+							.ng-star-inserted {
+								color: var(--SecondaryAccentTextColor) !important;
+							}
+						}
+					}
+					.mat-icon-no-color {
+						.ng-star-inserted {
+							.fa-folder-open {
+								color: var(--PrimaryAccentTextColor) !important;
+								font-weight: bold !important;
+							}
+						}
+					}
+					.fa-book {
+						.mat-icon-no-color {
+							.ng-star-inserted {
+								background-color: transparent !important;
+								color: var(--SecondaryAccentTextColor) !important;
+							}
+						}
+					}
+					.fa-file-invoice {
+						.mat-icon-no-color {
+							.ng-star-inserted {
+								color: var(--SecondaryAccentTextColor) !important;
+							}
+						}
+					}
+					.fa-comments-alt {
+						.mat-icon-no-color {
+							.ng-star-inserted {
+								color: var(--PrimaryAccentTextColor) !important;
+							}
+						}
+					}
+					.fa-ballot-check {
+						.mat-icon-no-color {
+							.ng-star-inserted {
+								color: var(--SecondaryAccentTextColor) !important;
+							}
+						}
+					}
+					.fa-folder-open {
+						.mat-icon-no-color {
+							.ng-star-inserted {
+								color: var(--PrimaryAccentTextColor);
+							}
+						}
+					}
+				}
+			}
+			.fas {
+				.fa-check-circle {
+					.mat-icon-no-color {
+						color: var(--PrimaryAccentTextColor) !important;
+						font-weight: bold !important;
+					}
+				}
+			}
+		}
+	}
+}
+app-student-courses {
+	.ng-star-inserted {
+		background-color: var(--PrimaryBackgroundColor) !important;
+	}
+}
+a {
+	.text-only {
+		color: var(--PrimaryAccentTextColor) !important;
+		font-weight: 700 !important;
+		font-style: normal !important;
+		text-transform: capitalize !important;
+		font-size: 16px !important;
+	}
+	color: var(--PrimaryAccentTextColor) !important;
+	.fr-command {
+		&:hover {
+			background-color: var(--QuaternaryBackgroundColor) !important;
+		}
+		.fr-active {
+			background-color: var(--QuaternaryBackgroundColor) !important;
+		}
+	}
+}
+mat-option {
+	.mat-option {
+		background-color: var(--PrimaryBackgroundColor) !important;
+		color: var(--PrimaryTextColor) !important;
+		.mat-selected {
+			.mat-active {
+				background-color: var(--SecondaryTextColor) !important;
+			}
+		}
+	}
+}
+app-student-stream {
+	.ng-star-inserted {
+		background-color: var(--PrimaryBackgroundColor) !important;
+	}
+}
+.mat-checkbox-inner-container {
+	border: var(--PrimaryTextColor) 2px solid !important;
+}
+mat-dialog-container {
+	.mat-dialog-container {
+		.ng-trigger-dialogContainer {
+			.ng-star-inserted {
+				color: var(--PrimaryTextColor) !important;
+				background-color: var(--TertiaryBackgroundColor) !important;
+			}
+		}
+	}
+}
+mat-divider {
+	.mat-divider {
+		background-color: var(--PrimaryBackgroundColor) !important;
+		.ng-tns-c337-98 {
+			.mat-divider-horizontal {
+				background-color: var(--SecondaryTextColor) !important;
+			}
+		}
+	}
+}
+h4 {
+	.announcement-title {
+		.ng-tns-c167-5 {
+			.ng-star-inserted {
+				color: var(--SecondaryTextColor) !important;
+			}
+		}
+	}
+	color: var(--PrimaryTextColor) !important;
+}
+p {
+	span {
+		span {
+			color: var(--PrimaryTextColor) !important;
+		}
+	}
+	a {
+		span {
+			background-color: transparent !important;
+		}
+	}
+}
+tbody {
+	tr {
+		td {
+			background-color: transparent !important;
+			border-color: var(--PrimaryTextColor) !important;
+		}
+	}
+	background-color: var(--TertiaryBackgroundColor) !important;
+	color: var(--PrimaryTextColor) !important;
+}
+tr {
+	td {
+		p {
+			background-color: transparent !important;
+		}
+	}
+	color: var(--PrimaryTextColor) !important;
+}
+td {
+	p {
+		a {
+			background-color: transparent !important;
+		}
+	}
+	.data-label {
+		color: var(--PrimaryAccentTextColor) !important;
+	}
+	color: var(--PrimaryTextColor) !important;
+}
+app-gradebook-home {
+	.app-background-card {
+		.top-page {
+			.ng-star-inserted {
+				background-color: var(--PrimaryBackgroundColor) !important;
+			}
+		}
+	}
+}
+mat-row {
+	.mat-row {
+		.cdk-row {
+			.ng-star-inserted {
+				background-color: var(--TertiaryBackgroundColor) !important;
+			}
+		}
+	}
+}
+mat-header-row {
+	.mat-header-row {
+		.cdk-header-row {
+			.ng-star-inserted {
+				background-color: var(--QuaternaryBackgroundColor) !important;
+			}
+		}
+	}
+}
+button {
+	.mat-sort-header-button {
+		color: var(--PrimaryTextColor) !important;
+	}
+	div {
+		span {
+			color: var(--PrimaryTextColor) !important;
+		}
+	}
+	.mat-menu-item {
+		color: var(--SecondaryAccentTextColor) !important;
+	}
+	.fr-command {
+		&:hover {
+			background-color: var(--QuaternaryBackgroundColor) !important;
+		}
+		.fr-active {
+			background-color: var(--QuaternaryBackgroundColor) !important;
+		}
+	}
+	svg {
+		path {
+			fill: var(--PrimaryTextColor) !important;
+		}
+	}
+}
+mat-cell {
+	.mat-cell {
+		.cdk-cell {
+			.objective-cell {
+				.cdk-column-obj-a15680ee-f68f-4d88-830b-7f1d2c5f6ef7 {
+					.mat-column-obj-a15680ee-f68f-4d88-830b-7f1d2c5f6ef7 {
+						.ng-star-inserted {
+							color: var(--PrimaryTextColor) !important;
+						}
+					}
+				}
+				.cdk-column-obj-7b5d7d63-19ed-4ac1-b9e4-3ca576401d5f {
+					.mat-column-obj-7b5d7d63-19ed-4ac1-b9e4-3ca576401d5f {
+						.ng-star-inserted {
+							color: var(--PrimaryTextColor) !important;
+						}
+					}
+				}
+			}
+			.cdk-column-version {
+				color: var(--PrimaryAccentTextColor) !important;
+			}
+			.cdk-column-reviewed {
+				.mat-column-reviewed {
+					color: var(--PrimaryTextColor) !important;
+				}
+			}
+			.cdk-column-title {
+				color: var(--SecondaryTextColor) !important;
+			}
+			.cdk-column-score {
+				.mat-column-score {
+					.ng-star-inserted {
+						color: var(--SecondaryAccentTextColor) !important;
+					}
+				}
+			}
+			.cdk-column-startTime {
+				.ng-star-inserted {
+					color: var(--PrimaryAccentTextColor) !important;
+				}
+			}
+			.cdk-column-duration {
+				.mat-column-duration {
+					.ng-star-inserted {
+						color: var(--SecondaryAccentTextColor) !important;
+					}
+				}
+			}
+			.cdk-column-submittedDate {
+				.mat-column-submittedDate {
+					.ng-star-inserted {
+						color: var(--PrimaryTextColor) !important;
+					}
+				}
+			}
+			.cdk-column-dueDate {
+				.mat-column-dueDate {
+					.ng-star-inserted {
+						color: var(--PrimaryTextColor) !important;
+					}
+				}
+			}
+		}
+	}
+	span {
+		span {
+			color: var(--PrimaryTextColor) !important;
+		}
+	}
+}
+mat-expansion-panel-header {
+	.mat-expansion-panel-header {
+		background-color: var(--TertiaryBackgroundColor) !important;
+		border: 2px solid var(--PrimaryAccentTextColor) !important;
+	}
+}
+mat-panel-title {
+	.mat-expansion-panel-header-title {
+		color: var(--PrimaryTextColor) !important;
+	}
+}
+at-cell {
+	div {
+		color: var(--PrimaryTextColor) !important;
+	}
+}
+img {
+	.side-menu-logo {
+		text-align: center !important;
+		visibility: hidden !important;
+	}
+	.app-logo {
+		visibility: hidden !important;
+	}
+}
+mat-drawer-content {
+	.mat-drawer-content {
+		.app-background {
+			.header-collapsed {
+				background-color: var(--PrimaryBackgroundColor) !important;
+			}
+			.header-expanded {
+				background-color: var(--PrimaryBackgroundColor) !important;
+			}
+			background-color: var(--PrimaryBackgroundColor) !important;
+		}
+	}
+}
+mat-card-title {
+	.mat-card-title {
+		color: var(--PrimaryTextColor) !important;
+	}
+}
+mat-card-subtitle {
+	.mat-card-subtitle {
+		color: var(--PrimaryTextColor) !important;
+	}
+}
+app-announcement-detail {
+	.ng-star-inserted {
+		background-color: var(--PrimaryBackgroundColor) !important;
+	}
+}
+lib-managed-html {
+	div {
+		div {
+			background-color: var(--TertiaryBackgroundColor) !important;
+		}
+		p {
+			background-color: transparent !important;
+			color: var(--SecondaryTextColor) !important;
+		}
+		ol {
+			background-color: transparent !important;
+			color: var(--SecondaryTextColor) !important;
+		}
+	}
+}
+.app-theme {
+	div {
+		.app-accent-default-background {
+			background-color: var(--SecondaryAccentTextColor) !important;
+			color: #FFFFFF;
+		}
+		.app-foreground-secondary-text {
+			color: var(--SecondaryAccentTextColor) !important;
+		}
+	}
+	p {
+		.app-foreground-secondary-text {
+			color: var(--SecondaryAccentTextColor) !important;
+		}
+	}
+	.mat-expansion-indicator {
+		&:after {
+			color: var(--PrimaryAccentTextColor) !important;
+		}
+	}
+	.mat-expansion-panel-header-description {
+		color: var(--PrimaryAccentTextColor) !important;
+	}
+	.app-top-tabs {
+		div {
+			.mat-tab-list {
+				.mat-ink-bar {
+					background-color: var(--PrimaryAccentTextColor) !important;
+				}
+			}
+		}
+		.mat-ink-bar {
+			background-color: var(--PrimaryAccentTextColor) !important;
+		}
+	}
+	span {
+		.app-foreground-secondary-text {
+			color: var(--SecondaryAccentTextColor) !important;
+		}
+	}
+	.app-no-data-message {
+		h3 {
+			color: var(--SecondaryAccentTextColor) !important;
+			color: var(--SecondaryAccentTextColor) !important;
+		}
+	}
+	.mat-tab-group {
+		.mat-primary {
+			.mat-ink-bar {
+				background-color: var(--PrimaryAccentTextColor) !important;
+			}
+		}
+	}
+	.mat-tab-nav-bar {
+		.mat-primary {
+			.mat-ink-bar {
+				background-color: var(--PrimaryAccentTextColor) !important;
+			}
+		}
+	}
+	.mat-badge-medium {
+		.mat-badge-after {
+			.mat-badge-content {
+				background-color: var(--SecondaryAccentTextColor) !important;
+			}
+		}
+	}
+	.mat-form-field-appearance-legacy {
+		.mat-form-field-underline {
+			background-color: var(--PrimaryAccentTextColor) !important;
+		}
+	}
+	.ng-star-inserted {
+		.app-no-data-message {
+			h3 {
+				color: var(--PrimaryTextColor) !important;
+			}
+		}
+	}
+	app-login {
+		input {
+			&:-webkit-autofill {
+				box-shadow: 0 0 0 1000px var(--PrimaryMenuColor) inset !important;
+				&:focus {
+					box-shadow: 0 0 0 1000px var(--PrimaryMenuColor) inset !important;
+				}
+				&:hover {
+					box-shadow: 0 0 0 1000px var(--PrimaryMenuColor) inset !important;
+				}
+			}
+		}
+	}
+}
+mat-tree-node {
+	.mat-tree-node {
+		background-color: var(--TertiaryBackgroundColor) !important;
+	}
+}
+mat-hint {
+	.mat-hint {
+		color: var(--PrimaryTextColor) !important;
+		font-weight: bold !important;
+	}
+}
+mat-header-cell {
+	.mat-header-cell {
+		.cdk-header-cell {
+			color: var(--PrimaryTextColor) !important;
+		}
+	}
+}
+mat-card-actions {
+	.mat-card-actions {
+		background-color: var(--TertiaryBackgroundColor) !important;
+	}
+}
+mat-chip {
+	.mat-chip {
+		.mat-badge {
+			.mat-primary {
+				.mat-standard-chip {
+					background-color: var(--TertiaryBackgroundColor) !important;
+					color: var(--PrimaryTextColor) !important;
+				}
+			}
+		}
+		.mat-primary {
+			.mat-standard-chip {
+				background-color: var(--QuinaryBackgroundColor) !important;
+				color: var(--SecondaryAccentTextColor) !important;
+			}
+		}
+	}
+}
+mat-footer-cell {
+	.mat-footer-cell {
+		.cdk-footer-cell {
+			background-color: var(--TertiaryBackgroundColor) !important;
+			.cdk-column-score {
+				color: var(--SecondaryAccentTextColor) !important;
+			}
+		}
+	}
+}
+app-no-data-message {
+	h3 {
+		color: var(--SecondaryAccentTextColor) !important;
+	}
+}
+form {
+	.top-content {
+		.app-background {
+			.ng-untouched {
+				.ng-pristine {
+					.ng-valid {
+						background-color: var(--PrimaryBackgroundColor) !important;
+					}
+				}
+			}
+			background-color: var(--PrimaryBackgroundColor) !important;
+		}
+	}
+}
+.fr-modal {
+	.fr-command {
+		.fr-btn {
+			.fr-dropdown {
+				.fr-active {
+					background-color: var(--QuaternaryBackgroundColor) !important;
+				}
+				&:after {
+					border-top: 4px solid var(--SecondaryAccentTextColor) !important;
+				}
+			}
+		}
+	}
+}
+.fr-popup {
+	.fr-command {
+		.fr-btn {
+			.fr-dropdown {
+				.fr-active {
+					background-color: var(--QuaternaryBackgroundColor) !important;
+				}
+				&:after {
+					border-top: 4px solid var(--SecondaryAccentTextColor) !important;
+				}
+			}
+		}
+	}
+	.fr-input-line {
+		input+label {
+			background-color: var(--PrimaryBackgroundColor) !important;
+			color: var(--PrimaryTextColor) !important;
+		}
+		textarea+label {
+			background-color: var(--PrimaryBackgroundColor) !important;
+			color: var(--PrimaryTextColor) !important;
+		}
+		input[type=text] {
+			background-color: var(--PrimaryBackgroundColor) !important;
+			color: var(--PrimaryTextColor) !important;
+		}
+		textarea {
+			background-color: var(--PrimaryBackgroundColor) !important;
+			color: var(--PrimaryTextColor) !important;
+		}
+	}
+}
+.fr-toolbar {
+	.fr-command {
+		.fr-btn {
+			.fr-dropdown {
+				.fr-active {
+					background-color: var(--QuaternaryBackgroundColor) !important;
+				}
+				&:after {
+					border-top: 4px solid var(--SecondaryAccentTextColor) !important;
+				}
+			}
+		}
+	}
+}
+.fr-svg {
+	fill: var(--PrimaryTextColor) !important;
+}
+input#fr-link-insert-layer-url-5 {
+	background-color: var(--PrimaryBackgroundColor) !important;
+	color: var(--PrimaryTextColor) !important;
+}
+input#fr-link-insert-layer-text-5 {
+	background-color: var(--PrimaryBackgroundColor) !important;
+	color: var(--PrimaryTextColor) !important;
+}
+input {
+	.fr-link-attr {
+		fr-not-empty {
+			border: none !important;
+		}
+	}
+	.mat-input-element {
+		.mat-form-field-autofill-control {
+			color: var(--SecondaryAccentTextColor) !important;
+			background-color: var(--TertiaryBackgroundColor) !important;
+		}
+	}
+}
+.fa-youtube {
+	&:before {
+		color: var(--PrimaryTextColor) !important;
+	}
+}
+.fa-pencil-alt {
+	&:before {
+		color: var(--PrimaryTextColor) !important;
+	}
+}
+.fa-smile {
+	&:before {
+		color: var(--PrimaryTextColor) !important;
+	}
+}
+.fa-microphone {
+	&:before {
+		color: var(--PrimaryTextColor) !important;
+	}
+}
+.fa-video {
+	&:before {
+		color: var(--PrimaryTextColor) !important;
+	}
+}
+.mat-divider {
+	.mat-divider-horizontal {
+		background-color: var(--PrimaryAccentTextColor) !important;
+	}
+}
+lib-activity-thumbnail {
+	background-color: transparent !important;
+}
+mat-table {
+	.mat-table {
+		.cdk-table {
+			.mat-sort {
+				background-color: var(--PrimaryBackgroundColor) !important;
+			}
+		}
+	}
+}
+app-student-activity {
+	.ng-star-inserted {
+		background-color: var(--PrimaryBackgroundColor) !important;
+	}
+}
+app-badges {
+	.ng-star-inserted {
+		background-color: var(--PrimaryBackgroundColor) !important;
+	}
+}
+* {
+	&::-webkit-scrollbar {
+		width: 10px !important;
+	}
+	&::-webkit-scrollbar-track {
+		background: var(--TertiaryBackgroundColor) !important;
+	}
+	&::-webkit-scrollbar-thumb {
+		background: var(--SecondaryAccentTextColor) !important;
+		border-radius: 20px !important;
+	}
+}
+li {
+	&::marker {
+		color: var(--SecondaryAccentTextColor) !important;
+	}
+}

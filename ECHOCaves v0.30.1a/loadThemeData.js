@@ -5,7 +5,7 @@ chrome.storage.local.get('Checked', function (result) {
         CheckedJSON = JSON.stringify(result.Checked);
         CheckedValue = JSON.parse(CheckedJSON);
         if(CheckedValue == true) {
-            var path = chrome.extension.getURL('ECTheme.css');
+            var path = chrome.extension.getURL('EC-ThemeStyling/ConvertedPageTheme.css');
             $('head').append($('<link>')
                 .attr("rel","stylesheet")
                 .attr("type","text/css")
