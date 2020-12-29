@@ -1,0 +1,75 @@
+span.points.ng-star-inserted {
+  visibility: hidden;
+}
+span.points.ng-star-inserted::after {
+  visibility: visible;
+  content: "100/100";
+  position: absolute;
+  left: 200px;
+}
+  span.percent.ng-star-inserted {
+  visibility: hidden;
+}
+span.percent.ng-star-inserted::after {
+  visibility: visible;
+  content: "100%";
+  position: absolute;
+  left: 258px;
+}
+
+a.text-only {
+visibility: hidden;
+}
+
+a.text-only:after {
+  visibility: visible;
+  content: "Example Assignment for course";
+  position: absolute;
+  left: 200px;
+}
+
+div.course-thumbnail.ng-star-inserted {
+    background:url("https://docs.google.com/drawings/d/e/2PACX-1vRGPkxM19HhaR63rb3lqpFGVv6SnrNJfpQVND2VtNmdtcH-u_HLg6A35CmvqzyFSNBkTY-RYSDiTW-H/pub?w=512&h=512");
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+
+span.objective-title-abbrev.ng-star-inserted {
+visibility: hidden;
+}
+span.objective-title-abbrev.ng-star-inserted:after {
+visibility: visible;
+content: "AZ";
+  position: absolute;
+  left: 170px;
+}
+
+div.description {
+visibility: hidden;
+}
+div.description:after {
+visibility: visible;
+content: "Example Assignment Score Update From Manager Of Course";
+  position: absolute;
+  left: 65px;
+}
+
+div.date {
+visibility: hidden;
+}
+div.date:after {
+visibility: visible;
+content: "Example Date";
+  position: absolute;
+  left: 65px;
+}
+
+div.friendly-date.ng-star-inserted {
+visibility: hidden;
+}
+div.friendly-date.ng-star-inserted:after {
+visibility: visible;
+content: "Example Time of all assignments";
+  position: absolute;
+  left: 15px;
+}

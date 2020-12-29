@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+    <head>
+        <link rel="stylesheet" href="popup.css">
+        <title>ECHO Caves</title>
+    </head>
+    <body>
+        <div id="mainLicense">
+            <div id="popup">
+                <div id="licenseText">
+                    <button id="exitLicense" style="display: flex; float: right;">[X]</button><br><br>
+                    <span style="color: #89affc;display: flex;">Copyright 2020 Reactive Peak Studios</span><br>
+                    Licensed under the Apache License, Version 2.0 (the "License");
+                    you may not use this file except in compliance with the License.
+                    You may obtain a copy of the License here<br>
+                    <a href="http://www.apache.org/licenses/LICENSE-2.0" target="_blank">LICENSE</a><br>
+                    Unless required by applicable law or agreed to in writing, software
+                    distributed under the License is distributed on an "AS IS" BASIS,
+                    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+                    See the License for the specific language governing permissions and
+                    limitations under the License.<br>
+                </div>
+            </div>
+        </div>
+        <div class="dimmer">
+        </div>
+        <h1 id="Title">ECHO Caves</h1>
+        <!--style="display:flex;"--><!--<label class="switch"><input type="checkbox" id="checkbox" checked><span class="slider round"></span></label>-->
+        <div class="Category">
+            <p style="font-size:20px;">
+                Want to make your own theme?<br>
+                <a href="https://reactivepeakstudios.github.io/echo-caves/themepunk" target="_blank">EC Themepunk</a>
+            </p><br>
+            <p>Paste your <span class="accents">JSON data</span> below.</p>
+            <input type="text" class="inputText" id="inputText" placeholder="JSON Data Here" id="text1">
+            <p id="err"></p>
+        </div>
+        <div id="Buttons">
+            <button class="Buttons"id="Confirm">Confirm Changes</button>
+            <button class="Buttons"id="Revert">Revert Changes</button>
+        </div>
+        <div class="Category">
+            <p>Build Info:</p>
+            Developer: <span class="accents">ReactJS</span><br>
+            Designer: <span class="accents">Bon Bon</span><br>
+            Logs: <a href="#" target="_blank">Coming Soon</a><br>
+            License: <a href="#" id="licenseLink">Apache-2.0</a><br>
+            Version: <span class="accents">EC-v0.30.1a</span><br>
+        </div><br>
+    </body>
+    <script type="text/javascript" src="popup.js"></script>
+</html>

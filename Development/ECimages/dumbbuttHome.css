@@ -1,0 +1,95 @@
+
+div.mat-card-image.course-card-image.rounded.ng-star-inserted {
+  background:url("https://docs.google.com/drawings/d/e/2PACX-1vRGPkxM19HhaR63rb3lqpFGVv6SnrNJfpQVND2VtNmdtcH-u_HLg6A35CmvqzyFSNBkTY-RYSDiTW-H/pub?w=512&h=512");
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+
+span.mat-content {
+  visibility: hidden;
+}
+span.mat-content:after {
+  visibility: visible;
+  content: "Example Dropdown Header";
+  position: absolute;
+}
+
+span.date-header {
+  visibility: hidden;
+}
+span.date-header::after {
+  visibility: visible;
+    content: "Example Date";
+    position: absolute;
+    left: 10px;
+}
+
+span.points.ng-star-inserted {
+  visibility: hidden;
+}
+span.points.ng-star-inserted::after {
+  visibility: visible;
+  content: "100/100";
+  position: absolute;
+  left: 20px;
+}
+span.percent.ng-star-inserted {
+  visibility: hidden;
+}
+span.percent.ng-star-inserted::after {
+  visibility: visible;
+  content: "100%";
+  position: absolute;
+  left: 75px;
+}
+span.letter.ng-star-inserted {
+  visibility: hidden;
+}
+span.letter.ng-star-inserted::after {
+  visibility: visible;
+  content: "A+";
+  position: absolute;
+  left: 115px;
+}
+
+mat-card-title.mat-card-title {
+visibility: hidden;
+}
+mat-card-title.mat-card-title::after {
+visibility: visible;
+  content: "Example Course";
+  position: absolute;
+  left: 23px;
+  bottom: 110px;
+}
+
+div.term-title {
+visibility: hidden;
+}
+div.term-title:after {
+visibility: visible;
+  content: "Example Course Years";
+  position: absolute;
+  left: 23px;
+  bottom: 90px;
+}
+
+div.enr-dates {
+visibility: hidden;
+}
+div.enr-dates:after {
+visibility: visible;
+  content: "Example Date";
+  position: absolute;
+  left: 23px;
+  bottom: 76px;
+}
+span div div {
+  visibility: hidden;
+}
+span div div:after {
+  visibility: visible;
+  content: "Name";
+  position: absolute;
+  left: 23px;
+}
