@@ -5,12 +5,7 @@ chrome.storage.local.get('Checked', function (result) {
         CheckedJSON = JSON.stringify(result.Checked);
         CheckedValue = JSON.parse(CheckedJSON);
         if(CheckedValue == true) {
-            var path = chrome.extension.getURL('EC-ThemeStyling/ConvertedPageTheme.css');
-            $('head').append($('<link>')
-                .attr("rel","stylesheet")
-                .attr("type","text/css")
-                .attr("href", path)
-            );
+            document.head.innerHTML += "<link rel=\"stylesheet\" type=\"text/css\" href=\"chrome-extension://gfjnopegcjpnfeppkjpfkfkplklnemof/ConvertedPageTheme.css\"></link>";
             
             chrome.storage.local.get('CustomThemeJSON', function(result) {
                 CustomJSON = JSON.stringify(result.CustomThemeJSON);
@@ -20,7 +15,6 @@ chrome.storage.local.get('Checked', function (result) {
         }
     }
 });
-
 function loadTheme() {
     document.documentElement.style.setProperty("--PrimaryBackgroundColor", CustomData.Background.NewPrimaryBackgroundColor);
     document.documentElement.style.setProperty("--SecondaryBackgroundColor", CustomData.Background.NewSecondaryBackgroundColor);
