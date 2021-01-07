@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+   
+    "name": "ECHO Caves",
+    "version": "0.1",
+    "description": "Dark theme for ECHO || Developed by ReactJS and Bon Bon",
+    "icons": {
+      "128": "icons/icon128.png",
+      "16": "icons/icon48.png"
+    },
+    "page_action": {
+      "default_popup": "popup.html"
+    },
+    "content_scripts": [{
+      "matches": ["https://ccnth.echo-ntn.org/*"],
+      "css": ["EC-v01a.css"]
+    }]
+} 

@@ -182,14 +182,16 @@
 	.slider.round:before {
 	border-radius:50%
 	}
-	.inputText {
-	background-color:#181818;
+		.inputText {
+	background-color:#313949;
 	color:#FFF;
 	height:30px;
 	font-size:18px;
-	border:2px solid #CF86FF;
-	border-radius:10px
+	border-radius: 10px;
+	box-shadow: inset 5px 5px 11px #111111,
+            inset -5px -5px 11px #1f1f1f;
 	}
+	
 	.calcInput {
 	width:150px;
 	font-size:15px

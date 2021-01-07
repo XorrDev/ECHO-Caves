@@ -1,0 +1,169 @@
+html {
+    background-color: #313949;
+    text-align: center;
+}
+body {
+    border: 6px solid #b497c7;
+    width: 350px;
+    overflow: hidden;
+}
+h1 {
+    color: #FFFFFF;
+    font-weight:bold;
+}
+.Category {
+    margin-left: 0px;
+    color: #89affc;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+}
+input {
+    margin-bottom: 5px;
+}
+p {
+    font-size: 18px;
+}
+a {
+    color: #CF86FF;
+}
+.Buttons {
+    background-color: #5a6e92;
+    width: 150px;
+    height: 60px;
+    margin-top: 15px;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: bold;
+    border: 2px solid #44536e;
+}
+::-webkit-file-upload-button {
+    background-color: #181818;
+    color: #FFFFFF;
+    border: 1px solid #Cf86FF;
+    position: absolute;
+    margin:auto;
+    border-radius: 20px;
+}
+input[name="jsonData"] {
+    width:30%;
+    height: 40px;
+}
+#fileName {
+    font-size: 15px;
+}
+.accents {
+    color: #CF86FF;
+}
+.switch {
+    position: relative;
+    display: flex;
+    width: 60px;
+    height: 34px;
+    color: #383838;
+    left: 20px;
+}
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+input:checked + .slider {
+    background-color: #2196F3;
+}
+  
+input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+.slider.round {
+    border-radius: 34px;
+}
+  
+.slider.round:before {
+    border-radius: 50%;
+}
+#Title {
+    margin: auto;
+    width: 80%;
+    margin-top: 15px;
+}
+.inputText {
+    background-color: #1a2336;
+    color: #FFFFFF;
+    height: 30px;
+    font-size: 18px;
+    border:2px solid #CF86FF;
+}
+#err {
+    color: #FFFFFF;
+    font-size: 12px;
+    position: block;
+    margin: auto;
+    width: 80%;
+}
+#popup {
+    background-color: #354157;
+    position: absolute;
+    height: 80%;
+    width: 80%;
+    left: 38px;
+    top: 60px;
+    border:1px solid #CF86FF;
+    animation: popupAnim 1s linear;
+    text-align: left;
+}
+#licenseText {
+    margin-top: 2%;
+    margin-left: 8%;
+    margin-right: 8%;
+    color: #FFFFFF;
+    font-size: 14px;
+    text-align: center;
+}
+#exitLicense {
+    background-color: transparent;
+    color: #FFFFFF;
+    border: none;
+    outline:none;
+}
+#exitLicense:hover {
+    cursor: pointer;
+}
+#mainLicense {
+    background-color: rgba(0, 0, 0, 0.5);
+    margin:0px 0px 0px 0px;
+    width:102%;
+    height:102%;
+    margin: -20px -20px;
+    position: absolute;
+    visibility: hidden;
+    text-align: center;
+}
