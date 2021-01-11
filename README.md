@@ -23,7 +23,7 @@ This project was designed with productivity in mind; ensuring that the ability t
 The extension is available on the Chrome Store! Not only does this extension work with our CCNTH ECHO directory, but it works with every ‘*echo-ntn.org’ directory! This means there is a possibility to reach out to 85,000 students around the world with the exception of their district using the ECHO platform.
 [View ECHO Caves on the Chrome Store!](https://chrome.google.com/webstore/detail/echo-caves-alpha/ibjaciendmijpaipiblmkgjpjiaklgpf/)
 
-#Questions
+# Questions
 
 ### If I download this extension, 
 - ##### Are you able to access my ECHO account?
