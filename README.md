@@ -23,6 +23,9 @@ This project was designed with productivity in mind; ensuring that the ability t
 The extension is available on the Chrome Store! Not only does this extension work with our CCNTH ECHO directory, but it works with every ‘*echo-ntn.org’ directory! This means there is a possibility to reach out to 85,000 students around the world with the exception of their district using the ECHO platform.
 [View ECHO Caves on the Chrome Store!](https://chrome.google.com/webstore/detail/echo-caves-alpha/ibjaciendmijpaipiblmkgjpjiaklgpf/)
 
+#Contributing
+If you would like to improve or fix a part of this extension, we'd love to have you contribute to the project. Please read CONTRIBUTING.md for more information.
+
 # Questions
 
 ### If I download this extension, 
@@ -30,9 +33,6 @@ The extension is available on the Chrome Store! Not only does this extension wor
 - ##### Can you see my grades?
 - ##### Will my data be shared with anyone?
 Absolutely not. This extension doesn’t scrape any user data and is run locally (no scripts are located outside of what’s running in the extension itself) We take privacy very seriously and I can’t stress that enough. (I’m unsure if this requires me to have a privacy policy at all since it is not shared between scripts, just in the users local cache. If it is the case that I need one then I will write one).
-
-### can I / how do I contribute to this project?
-You are more than welcome to help out with this project! The more people we have positively contributing to this project, the better!
 
 
 ### What license is this project under? May I read more about this?
