@@ -20,19 +20,22 @@ This project was designed with productivity in mind; ensuring that the ability t
 
 # Use
 
-The extension is available on the Chrome Store! It’s unlisted so you’ll have to access it through this global link since it keeps it within our district. (This still doesn’t restrict outsiders from downloading it but they wouldn’t have much use since they need an ECHO account to make use of it.)
+The extension is available on the Chrome Store! Not only does this extension work with our CCNTH ECHO directory, but it works with every ‘*echo-ntn.org’ directory! This means there is a possibility to reach out to 85,000 students around the world with the exception of their district using the ECHO platform.
 [View ECHO Caves on the Chrome Store!](https://chrome.google.com/webstore/detail/echo-caves-alpha/ibjaciendmijpaipiblmkgjpjiaklgpf/)
 
-# If I download this extension, 
+#Questions
+
+### If I download this extension, 
 - ##### Are you able to access my ECHO account?
 - ##### Can you see my grades?
 - ##### Will my data be shared with anyone?
 Absolutely not. This extension doesn’t scrape any user data and is run locally (no scripts are located outside of what’s running in the extension itself) We take privacy very seriously and I can’t stress that enough. (I’m unsure if this requires me to have a privacy policy at all since it is not shared between scripts, just in the users local cache. If it is the case that I need one then I will write one).
 
-# Am I able to fork this project for myself? 
-As of now, this project is closed source. However, this still means that it is completely free to use, just not free to expand unless we move from our current license (Apache-2.0) to an open source license (GPL, MIT, etc.)
+### can I / how do I contribute to this project?
+You are more than welcome to help out with this project! The more people we have positively contributing to this project, the better!
 
-# What license is this project under? May I read more about this?
+
+### What license is this project under? May I read more about this?
 The project is under the Apache-2.0 license and of course you can! 
-[Apache 2.0](https://github.com/ReactivePeakStudios/ECHO-Caves/blob/main/LICENSE)
+[License](https://github.com/ReactivePeakStudios/ECHO-Caves/blob/main/LICENSE)
 
