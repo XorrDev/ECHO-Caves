@@ -24,7 +24,7 @@ The extension is available on the Chrome Store! Not only does this extension wor
 [View ECHO Caves on the Chrome Store!](https://chrome.google.com/webstore/detail/echo-caves-alpha/ibjaciendmijpaipiblmkgjpjiaklgpf/)
 
 # Contributing
-If you would like to improve or fix a part of this extension, we'd love to have you contribute to the project. Please read [Contributingmd](https://github.com/ReactivePeakStudios/ECHO-Caves/main/CONTRIBUTING.md) for more information.
+If you would like to improve or fix a part of this extension, we'd love to have you contribute to the project. Please read [Contributing.md](https://github.com/ReactivePeakStudios/ECHO-Caves/blob/main/CONTRIBUTING.md) for more information.
 
 # Questions
 
