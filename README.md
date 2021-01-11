@@ -34,5 +34,5 @@ As of now, this project is closed source. However, this still means that it is c
 
 # What license is this project under? May I read more about this?
 The project is under the Apache-2.0 license and of course you can! 
-[License!](https://github.com/ReactivePeakStudios/ECHO-Caves/blob/main/LICENSE)
+[Apache 2.0](https://github.com/ReactivePeakStudios/ECHO-Caves/blob/main/LICENSE)
 
