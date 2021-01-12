@@ -36,6 +36,4 @@ Absolutely not. This extension doesn’t scrape any user data and is run locally
 
 
 ### What license is this project under? May I read more about this?
-The project is under the Apache-2.0 license and of course you can! 
-[License](https://github.com/ReactivePeakStudios/ECHO-Caves/blob/main/LICENSE)
-
+The project is under the Apache-2.0 license. If you wish to read more about it, please visit the [LICENSE](https://github.com/ReactivePeakStudios/ECHO-Caves/blob/main/LICENSE) here
