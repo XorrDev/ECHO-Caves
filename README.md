@@ -29,9 +29,9 @@ If you would like to improve or fix a part of this extension, we'd love to have 
 # Questions
 
 ### If I download this extension, 
-- ##### Are you able to access my ECHO account?
-- ##### Can you see my grades?
-- ##### Will my data be shared with anyone?
+##### - Are you able to access my ECHO account?
+##### - Can you see my grades?
+##### - Will my data be shared with anyone?
 Absolutely not. This extension doesn’t scrape any user data and is run locally (no scripts are located outside of what’s running in the extension itself) We take privacy very seriously and I can’t stress that enough. (I’m unsure if this requires me to have a privacy policy at all since it is not shared between scripts, just in the users local cache. If it is the case that I need one then I will write one).
 
 
