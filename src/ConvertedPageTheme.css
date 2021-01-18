@@ -129,6 +129,10 @@ color:#FFFFFF!important;
 }
 .app-theme app-login input:-webkit-autofill,.app-theme app-login input:-webkit-autofill:focus,.app-theme app-login input:-webkit-autofill:hover {
 box-shadow:0 0 0 1000px var(--PrimaryMenuColor) inset!important;
+color: var(--PrimaryTextColor)!important;
+}
+.app-theme app-login input:-webkit-autofill, .app-theme app-login input:-webkit-autofill:focus, .app-theme app-login input:-webkit-autofill:hover {
+  -webkit-text-fill-color: var(--PrimaryAccentTextColor)!important;
 }
 img.app-logo {
 visibility:hidden!important;
