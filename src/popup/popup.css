@@ -163,7 +163,7 @@
 	bottom:4px;
 	background-color:#FFF;
 	-webkit-transition:.4s;
-	transition:.4s;
+	transition:.4s
 	}
 	input:checked+.slider {
 	background-color:#527ac4
@@ -270,7 +270,8 @@
 	margin:-28px -18px;
 	position:absolute;
 	visibility:hidden;
-	text-align:center
+	text-align:center;
+	z-index:1;
 	}
 	#DevelopersText {
 	margin-top:2%;

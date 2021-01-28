@@ -6,7 +6,7 @@ document.getElementById("Confirm").style = "background-color:#333F54;color:#B3B3
 document.getElementById("currentGrade").addEventListener("input", CalculateAccess);
 document.getElementById("targetGrade").addEventListener("input", CalculateAccess);
 document.getElementById("assignmentWeight").addEventListener("input", CalculateAccess);
-document.getElementById("ExtensionSwitch").addEventListener("input", Checked);
+document.getElementById("checkbox").addEventListener("input", Checked);
 document.getElementById("Calculate").addEventListener("click", Calculate);
 document.getElementById("ClearInput").addEventListener("click", ClearInput);
 document.getElementById("Calculate").disabled = true;
@@ -21,6 +21,7 @@ document.getElementById("developersLink").addEventListener("click", openDevelope
 document.getElementById("exitDevelopers").addEventListener("click", exitDevelopers);
 document.getElementById("ThemeLoader").addEventListener("click", ThemeLoader);
 document.getElementById("OtherFeatures").addEventListener("click", OtherFeatures);
+//document.getElementById("checkbox").disabled = true;
 var previousData;
 var lenCurrentGrade;
 var lenTargetGrade;
@@ -72,25 +73,21 @@ function Revert() {
     });
 }
 function openLicense() {
-    document.getElementById("bottomIcons").style = "visibility: hidden;";
-    document.getElementById("ExtensionSwitch").style = "display:none;";
+    document.getElementById("bottomIcons").style = "visibility: hidden;"
     document.getElementById('mainLicense').style = "visibility: visible;";
     document.getElementById("errTheme").innerHTML = "";
 }
 function exitLicense() {
     document.getElementById('mainLicense').style = "visibility: hidden;";
-    document.getElementById("ExtensionSwitch").style = "display:show;";
-    document.getElementById("bottomIcons").style = "visibility: visible;";
+    document.getElementById("bottomIcons").style = "visibility: visible;"
 }
 function openDevelopers() {
     document.getElementById("bottomIcons").style = "visibility: hidden";
-    document.getElementById("ExtensionSwitch").style = "display:none;";
     document.getElementById('mainDevelopers').style = "visibility: visible;";
     document.getElementById("errTheme").innerHTML = "";
 }
 function exitDevelopers() {
     document.getElementById('mainDevelopers').style = "visibility: hidden;";
-    document.getElementById("ExtensionSwitch").style = "display:show;";
     document.getElementById("bottomIcons").style = "visibility: visible;";
 }
 function ThemeLoader() {
@@ -149,7 +146,7 @@ function ClearInput() {
     document.getElementById("assignmentWeight").value = "";
 }
 function Checked() {
-    var checkedBool = document.getElementById("ExtensionSwitch").checked;
+    var checkedBool = document.getElementById("checkbox").checked;
     chrome.storage.local.set({
         Checked: checkedBool
     });
@@ -160,7 +157,7 @@ chrome.storage.local.get('Checked', function(result) {
     if (typeof result.Checked !== 'undefined') {
         CheckedJSON = JSON.stringify(result.Checked);
         CheckedValue = JSON.parse(CheckedJSON);
-        document.getElementById("ExtensionSwitch").checked = CheckedValue;
+        document.getElementById("checkbox").checked = CheckedValue;
     } else {
         chrome.storage.local.set({
             Checked: true
