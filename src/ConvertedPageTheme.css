@@ -10,6 +10,9 @@
   font-style:normal!important;
   font-weight:700!important;
   }
+  mat-cell.mat-cell.cdk-cell.cdk-column-location.mat-column-location.ng-star-inserted {
+    color: #FFFFFF;
+  }
   div.mat-form-field-flex4 {
   background-color:var(--SecondaryBackgroundColor)!important;
   color:var(--PrimaryTextColor)!important;
