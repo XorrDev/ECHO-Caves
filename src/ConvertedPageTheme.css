@@ -1,227 +1,482 @@
-:root {--PrimaryAccentTextColor:#CF86FF;--PrimaryBackgroundColor:#181818;--PrimaryGradeColor:#00FF00;--PrimaryMenuColor:#585858;--PrimaryTextColor:#ffffff;--QuaternaryBackgroundColor:#484848;--QuinaryBackgroundColor:#585858;--SecondaryAccentTextColor:#00ACFF;--SecondaryBackgroundColor:#282828;--SecondaryGradeColor:#00DF00;--SecondaryMenuColor:#484848;--SecondaryTextColor:#B3B3B3;--TertiaryBackgroundColor:#383838;--TertiaryGradeColor:#59FF59;
-  }
-  span.to-do-title {
-  color:var(--PrimaryTextColor)!important;
-  font-size:18px;
-  }
-  div p span {
-  color:var(--PrimaryTextColor)!important;
-  font-size:15px;
-  font-style:normal!important;
-  font-weight:700!important;
-  }
-  mat-cell.mat-cell.cdk-cell.cdk-column-location.mat-column-location.ng-star-inserted {
-    color: #FFFFFF;
-  }
-  div.mat-form-field-flex4 {
+:root {
+  --PrimaryBackgroundColor:#181818;
+  --SecondaryBackgroundColor:#282828;
+  --TertiaryBackgroundColor:#383838;
+  --QuaternaryBackgroundColor:#484848;
+  --QuinaryBackgroundColor:#585858;
+  
+  --PrimaryTextColor:#ffffff;
+  --SecondaryTextColor:#B3B3B3;
+  --PrimaryAccentTextColor:#CF86FF;
+  --SecondaryAccentTextColor:#00ACFF;
+
+  --PrimaryGradeColor:#00FF00;
+  --SecondaryGradeColor:#00DF00;
+  --TertiaryGradeColor:#59FF59;
+  
+  --PrimaryMenuColor:#585858;
+  --SecondaryMenuColor:#484848;
+}
+
+
+/*+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+     Background Color     =+=+=+=+=*/
+
+
+html,
+ app-student-to-do.ng-star-inserted,
+app-student-courses.ng-star-inserted,
+app-student-stream.ng-star-inserted,
+mat-divider.mat-divider,
+app-gradebook-home.app-background-card.top-page.ng-star-inserted,
+mat-drawer-content.mat-drawer-content.app-background.header-collapsed,
+div.blog-container,
+mat-drawer-content.mat-drawer-content.app-background.header-expanded,
+app-announcement-detail.ng-star-inserted,
+div.hero-image-spacer-bottom.app-background.ng-star-inserted,
+div.main.app-background,
+mat-drawer-content.mat-drawer-content.app-background,
+div.fr-element.fr-view,
+form.top-content.app-background.ng-untouched.ng-pristine.ng-valid,
+div.open-animation-border.ng-star-inserted,
+div.main.ng-star-inserted,
+mat-toolbar.mat-toolbar.mat-toolbar-single-row.ng-untouched.ng-pristine.ng-valid.ng-star-inserted,
+mat-table.mat-table.cdk-table.mat-sort,
+app-student-activity.ng-star-inserted,
+app-badges.ng-star-inserted,
+div.main-page.app-background,
+form.top-content.app-background,
+div.questions.ng-star-inserted,
+mat-option.mat-option,
+input#fr-link-insert-layer-url-5,
+input#fr-link-insert-layer-text-5,
+.fr-popup .fr-input-line input + label,
+.fr-popup .fr-input-line textarea + label,
+.fr-popup .fr-input-line input[type = text],
+.fr-popup .fr-input-line textarea {
+  background-color:var(--PrimaryBackgroundColor)!important;
+}
+
+
+div.mat-form-field-flex4,
+ul.fr-dropdown-list {
   background-color:var(--SecondaryBackgroundColor)!important;
+}
+
+
+mat-card,
+div.mat-drawer-inner-container,
+div.mat-list-item-content,
+div.top-content.app-background,
+mat-toolbar.mat-toolbar.dialog-toolbar.mat-elevation-z4.mat-toolbar-single-row,
+div.objective-score,
+mat-row.mat-row.cdk-row.ng-star-inserted,
+div.top-content.app-background.xli-flex-enabled,
+div.activity-html,
+div.nav-footer,
+div.mat-paginator-container,
+div.list-ct,
+div.announcement-list,
+lib-managed-html div div,
+mat-tree-node.mat-tree-node,
+mat-card-actions.mat-card-actions,
+mat-footer-cell.mat-footer-cell.cdk-footer-cell,
+div.mat-button-toggle-label-content,
+input.mat-input-element.mat-form-field-autofill-control,
+::-webkit-scrollbar-track,
+mat-dialog-container.mat-dialog-container.ng-trigger-dialogContainer.ng-star-inserted,
+span strong u,
+mat-expansion-panel-header.mat-expansion-panel-header,
+div.mat-expansion-panel-body,
+mat-chip.mat-chip.mat-badge.mat-primary.mat-standard-chip {
+  background-color:var(--TertiaryBackgroundColor)!important;
+}
+
+
+span.mat-button-toggle-label-content,
+mat-header-row.mat-header-row.cdk-header-row.ng-star-inserted,
+div.mat-menu-content,
+.fr-modal .fr-command.fr-btn.fr-dropdown.fr-active,
+.fr-popup .fr-command.fr-btn.fr-dropdown.fr-active,
+.fr-toolbar .fr-command.fr-btn.fr-dropdown.fr-active,
+button.fr-command:hover,
+a.fr-command:hover,
+a.fr-command.fr-active,
+button.fr-command.fr-active,
+div.save-status-line,
+th.mat-header-cell.cdk-header-cell.cdk-column-creationdate.mat-column-creationdate,
+th.mat-header-cell.cdk-header-cell.cdk-column-expand.mat-column-expand,
+th.mat-header-cell.cdk-header-cell.cdk-column-title.mat-column-title {
+  background-color:var(--QuaternaryBackgroundColor)!important;
+}
+
+
+div.color-band.rounded,
+div.fr-toolbar.fr-desktop.fr-top,
+div.fr-popup,
+mat-chip.mat-chip.mat-primary.mat-standard-chip {
+  background-color:var(--QuinaryBackgroundColor)!important;
+}
+
+
+/*+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+     Text Color     =+=+=+=+=*/
+
+
+.mat-icon,
+ div,
+mat-label,
+span.mat-option-text,
+span.mat-content,
+p span span,
+tr,
+td,
+button.mat-sort-header-button,
+button div span,
+span.no-score.ng-star-inserted,
+mat-cell.mat-cell.cdk-cell.objective-cell.cdk-column-obj-a15680ee-f68f-4d88-830b-7f1d2c5f6ef7.mat-column-obj-a15680ee-f68f-4d88-830b-7f1d2c5f6ef7.ng-star-inserted,
+mat-cell.mat-cell.cdk-cell.objective-cell.cdk-column-obj-7b5d7d63-19ed-4ac1-b9e4-3ca576401d5f.mat-column-obj-7b5d7d63-19ed-4ac1-b9e4-3ca576401d5f.ng-star-inserted,
+mat-cell span span,
+mat-panel-title.mat-expansion-panel-header-title,
+span.mat-expansion-indicator,
+at-cell div,
+span span span,
+mat-card-title.mat-card-title,
+mat-card-subtitle.mat-card-subtitle,
+div span,
+span.description,
+h4,
+mat-header-cell.mat-header-cell.cdk-header-cell,
+mat-cell.mat-cell.cdk-cell.cdk-column-reviewed.mat-column-reviewed,
+.fa-youtube:before,
+.fa-pencil-alt:before,
+.fa-smile:before,
+.fa-microphone:before,
+.fa-video:before,
+.app-theme .ng-star-inserted.app-no-data-message h3,
+mat-cell.mat-cell.cdk-cell.cdk-column-submittedDate.mat-column-submittedDate.ng-star-inserted,
+mat-cell.mat-cell.cdk-cell.cdk-column-dueDate.mat-column-dueDate.ng-star-inserted,
+span.to-do-title,
+div p span,
+div.mat-form-field-flex4,
+span.mat-button-wrapper,
+tbody tr td,
+div div font,
+mat-hint.mat-hint,
+mat-option.mat-option,
+input#fr-link-insert-layer-url-5,
+input#fr-link-insert-layer-text-5,
+.fr-popup .fr-input-line input + label,
+.fr-popup .fr-input-line textarea + label,
+.fr-popup .fr-input-line input[type = text],
+.fr-popup .fr-input-line textarea,
+mat-dialog-container.mat-dialog-container.ng-trigger-dialogContainer.ng-star-inserted,
+span strong u,
+tbody,
+mat-chip.mat-chip.mat-badge.mat-primary.mat-standard-chip,
+div div font,
+div p span,
+div.mat-form-field-flex4,
+span.mat-button-wrapper,
+mat-cell.mat-cell.cdk-cell.cdk-column-location.mat-column-location.ng-star-inserted,
+.app-theme .mat-badge-medium.mat-badge-after .mat-badge-content,
+span.mat-badge-content,
+.app-theme div.app-accent-default-background {
   color:var(--PrimaryTextColor)!important;
-  }
-  a.text-only {
-  color:var(--PrimaryAccentTextColor)!important;
-  font-size:16px!important;
-  font-style:normal!important;
-  font-weight:700!important;
-  text-transform:capitalize!important;
-  }
-  .mat-checkbox-inner-container {
-  border:var(--PrimaryTextColor) 2px solid!important;
-  }
-  span.mat-button-wrapper {
-  color:var(--PrimaryTextColor)!important;
-  text-align:center!important;
-  }
-  tbody tr td {
-  background-color:transparent!important;
+}
+
+
+tbody tr td {
   border-color:var(--PrimaryTextColor)!important;
-  }
-  div.gauge-progress {
+}
+
+
+.mat-checkbox-inner-container {
+  border:var(--PrimaryTextColor) 2px solid!important;
+}
+
+
+button svg path,
+.fr-svg {
+  fill:var(--PrimaryTextColor)!important;
+}
+
+
+mat-option.mat-option.mat-selected.mat-active,
+mat-divider.mat-divider.ng-tns-c337-98.mat-divider-horizontal {
+  background-color:var(--SecondaryTextColor)!important;
+}
+
+
+h4.announcement-title.ng-tns-c167-5.ng-star-inserted,
+mat-cell.mat-cell.cdk-cell.cdk-column-title,
+mat-card mat-card-content p,
+lib-managed-html div p,
+lib-managed-html div ol {
+  color:var(--SecondaryTextColor)!important;
+}
+
+
+.app-theme .app-top-tabs div.mat-tab-list .mat-ink-bar,
+.app-theme .app-top-tabs .mat-ink-bar,
+.mat-divider.mat-divider-horizontal,
+.app-theme .mat-tab-group.mat-primary .mat-ink-bar,
+.app-theme .mat-tab-nav-bar.mat-primary .mat-ink-bar,
+.app-theme .mat-form-field-appearance-legacy .mat-form-field-underline,
+div.mat-radio-inner-circle {
+  background-color:var(--PrimaryAccentTextColor)!important;
+}
+
+
+mat-expansion-panel-header.mat-expansion-panel-header,
+div.mat-expansion-panel-body,
+mat-card.mat-card.ng-star-inserted,
+mat-card.mat-card {
+  border:2px solid var(--PrimaryAccentTextColor)!important;
+}
+
+
+td.data-label,
+div a span,
+mat-cell.mat-cell.cdk-cell.cdk-column-version,
+span.objective-possible,
+a,
+span.post-author,
+.app-theme .mat-expansion-indicator:after,
+.app-theme .mat-expansion-panel-header-description,
+div.app-foreground-secondary-text.ng-star-inserted,
+mat-icon.mat-icon.notranslate.activity-icon.fal.fa-comments-alt.mat-icon-no-color.ng-star-inserted,
+mat-cell.mat-cell.cdk-cell.cdk-column-startTime.ng-star-inserted,
+div ul li,
+div span a,
+mat-icon.mat-icon.notranslate.activity-icon.fal.mat-icon-no-color.ng-star-inserted.fa-folder-open,
+mat-icon.mat-icon.notranslate.fas.fa-check-circle.mat-icon-no-color,
+span a span,
+span span a,
+th.mat-header-cell.cdk-header-cell.cdk-column-title.mat-column-title,
+a.text-only,
+mat-icon.mat-icon.notranslate.activity-icon.fal.fa-folder-open.mat-icon-no-color.ng-star-inserted,
+th.mat-header-cell.cdk-header-cell.cdk-column-creationdate.mat-column-creationdate {
+  color:var(--PrimaryAccentTextColor)!important;
+}
+
+
+span.objective-color {
+  border-color:var(--PrimaryAccentTextColor)!important;
+}
+
+
+mat-icon.mat-icon.notranslate.activity-icon.fal.fa-folder.mat-icon-no-color.ng-star-inserted,
+mat-icon.mat-icon.notranslate.activity-icon.fal.fa-file.mat-icon-no-color.ng-star-inserted,
+.app-theme p.app-foreground-secondary-text,
+app-no-data-message h3,
+.app-theme span.app-foreground-secondary-text,
+.app-theme .app-no-data-message h3,
+.app-theme div.app-foreground-secondary-text,
+.app-theme .app-no-data-message h3,
+mat-cell.mat-cell.cdk-cell.cdk-column-score.mat-column-score.ng-star-inserted,
+mat-footer-cell.mat-footer-cell.cdk-footer-cell.cdk-column-score,
+button.mat-menu-item,
+mat-icon.mat-icon.notranslate.activity-icon.fal.fa-file-invoice.mat-icon-no-color.ng-star-inserted,
+mat-cell.mat-cell.cdk-cell.cdk-column-duration.mat-column-duration.ng-star-inserted,
+li::marker,
+mat-icon.mat-icon.notranslate.activity-icon.fal.fa-ballot-check.mat-icon-no-color.ng-star-inserted,
+td.mat-cell.cdk-cell.cdk-column-creationdate.mat-column-creationdate.ng-tns-c317-196,
+td.mat-cell.cdk-cell.cdk-column-title.mat-column-title.ng-tns-c317-196,
+input.mat-input-element.mat-form-field-autofill-control,
+td.mat-cell.cdk-cell.cdk-column-creationdate.mat-column-creationdate.ng-tns-c317-196,
+td.mat-cell.cdk-cell.cdk-column-title.mat-column-title.ng-tns-c317-196,
+mat-icon.mat-icon.notranslate.activity-icon.fal.fa-book.mat-icon-no-color.ng-star-inserted,
+mat-chip.mat-chip.mat-primary.mat-standard-chip,
+::-webkit-scrollbar-thumb {
+  color:var(--SecondaryAccentTextColor)!important;
+}
+
+
+span.mat-badge-content,
+.app-theme div.app-accent-default-background {
+  background-color:var(--SecondaryAccentTextColor)!important;
+}
+
+
+.fr-modal .fr-command.fr-btn.fr-dropdown:after,
+.fr-popup .fr-command.fr-btn.fr-dropdown:after,
+.fr-toolbar .fr-command.fr-btn.fr-dropdown:after {
+  border-top:4px solid var(--SecondaryAccentTextColor)!important;
+}
+
+
+/*+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+     Grade Color     =+=+=+=+=*/
+
+
+span.percent.ng-star-inserted {
+  color:var(--PrimaryGradeColor)!important;
+}
+
+
+span.letter.ng-star-inserted {
+  color:var(--SecondaryGradeColor)!important;
+}
+
+
+span.points.ng-star-inserted {
+  color:var(--TertiaryGradeColor)!important;
+}
+
+
+/*+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+     Menu Color     =+=+=+=+=*/
+
+
+.app-theme app-login input:-webkit-autofill,
+.app-theme app-login input:-webkit-autofill:focus,
+.app-theme app-login input:-webkit-autofill:hover {
+  box-shadow:0 0 0 1000px var(--PrimaryMenuColor) inset!important;
+}
+
+
+mat-toolbar.mat-toolbar.main-toolbar.mat-elevation-z4.app-primary-dark-background.app-primary-dark-contrast-color.buzz-main-header.mat-primary.mat-toolbar-single-row,
+div.toolbar {
+  background-color:var(--PrimaryMenuColor)!important;
+}
+
+
+div.mat-tab-labels,
+div.links {
+  background-color:var(--SecondaryMenuColor)!important;
+}
+
+
+/*+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+     Misc     =+=+=+=+=*/
+
+
+span.to-do-title {
+  font-size:18px!important;
+}
+
+
+div p span,
+a.text-only {
+  font-size:15px!important;
+}
+
+
+a.text-only,
+div p span,
+div.objective-title {
+  font-style:normal!important;
+}
+
+
+a.text-only,
+div p span,
+span span a,
+mat-hint.mat-hint,
+div ul li,
+div span a,
+mat-icon.mat-icon.notranslate.activity-icon.fal.mat-icon-no-color.ng-star-inserted.fa-folder-open,
+mat-icon.mat-icon.notranslate.fas.fa-check-circle.mat-icon-no-color,
+div.objective-title,
+span.course-title {
+  font-weight:700!important;
+}
+
+
+a.text-only {
+  text-transform:capitalize!important;
+}
+
+
+span.mat-button-wrapper,
+img.side-menu-logo {
+  text-align:center!important;
+}
+
+
+div.gauge-progress {
   border-style:none!important;
   display:none!important;
-  }
-  div.objective-title {
-  background-color:transparent;
-  font-style:normal;
-  font-weight:700;
-  }
-  img.side-menu-logo {
-  text-align:center!important;
+}
+
+
+img.side-menu-logo,
+img.app-logo {
   visibility:hidden!important;
-  }
-  div.side-menu-logo-ct {
+}
+
+
+div.side-menu-logo-ct {
   background-image:url(https://docs.google.com/drawings/d/e/2PACX-1vQ_rWTP5cJh1N_rg6QI87_oCsoBKPN8pzTGzqwSmXsWd2iU4soYdVdAwxvCp53xENb358TpJX7z4j4T/pub?w=1150&h=150)!important;
-  background-repeat:no-repeat!important;
   background-size:410px 55px!important;
   margin-left:5px!important;
   margin-top:5px!important;
-  }
-  div div font {
-  background-color:transparent!important;
-  color:var(--PrimaryTextColor)!important;
-  }
-  span span a {
-  background-color:transparent!important;
-  color:var(--PrimaryAccentTextColor)!important;
-  font-weight:700!important;
-  }
-  span a span {
-  background-color:transparent!important;
-  color:var(--PrimaryAccentTextColor)!important;
-  }
-  div.card-ct {
-  background-color:transparent!important;
-  outline-color:transparent!important;
-  }
-  mat-hint.mat-hint {
-  color:var(--PrimaryTextColor)!important;
-  font-weight:700!important;
-  }
-  div.card-top {
-  background-color:var(--SeconadryBackgroundColor)!important;
-  }
-  mat-chip.mat-chip.mat-primary.mat-standard-chip {
-  background-color:var(--QuinaryBackgroundColor)!important;
-  color:var(--SecondaryAccentTextColor)!important;
-  }
-  span.objective-color {
-  border-color:var(--PrimaryAccentTextColor)!important;
-  }
-  span.percent.ng-star-inserted {
-  color:var(--PrimaryGradeColor)!important;
-  }
-  span.letter.ng-star-inserted {
-  color:var(--SecondaryGradeColor)!important;
-  }
-  span.points.ng-star-inserted {
-  color:var(--TertiaryGradeColor)!important;
-  }
-  span.course-title {
-  font-weight:1000!important;
-  }
-  mat-icon.mat-icon.notranslate.activity-icon.fal.fa-book.mat-icon-no-color.ng-star-inserted {
-  background-color:transparent!important;
-  color:var(--SecondaryAccentTextColor)!important;
-  }
-  ul.fr-dropdown-list {
-  background-color:var(--SecondaryBackgroundColor)!important;
-  }
-  input.fr-link-attr fr-not-empty {
-  border:none!important;
-  }
-  .fr-modal .fr-command.fr-btn.fr-dropdown:after,.fr-popup .fr-command.fr-btn.fr-dropdown:after,.fr-toolbar .fr-command.fr-btn.fr-dropdown:after {
-  border-top:4px solid var(--SecondaryAccentTextColor)!important;
-  }
-  .app-theme .mat-badge-medium.mat-badge-after .mat-badge-content {
-  background-color:var(--SecondaryAccentTextColor)!important;
-  }
-  .app-theme app-login input:-webkit-autofill,.app-theme app-login input:-webkit-autofill:focus,.app-theme app-login input:-webkit-autofill:hover {
-  box-shadow:0 0 0 1000px var(--PrimaryMenuColor) inset!important;
-  }
-  img.app-logo {
-  visibility:hidden!important;
-  }
-  span.app-title {
-  background:url(https://docs.google.com/drawings/d/e/2PACX-1vQj2TvnLq36uO3FL1h3O-_XpqsyMy2vPgqho1WTMUZuYJ0idWVBoACPrJtpmbiVslqE795FpC6whi2j/pub?w=1800&h=148)!important;
+}
+
+
+div.side-menu-logo-ct,
+span.app-title {
   background-repeat:no-repeat!important;
+}
+
+
+div.card-ct,
+span a span,
+span span a,
+div div font,
+mat-icon.mat-icon.notranslate.activity-icon.fal.fa-book.mat-icon-no-color.ng-star-inserted,
+ul,
+tr td p,
+td p a,
+p a span,
+span,
+div.fr-input-line label,
+div.fr-newline,
+lib-activity-thumbnail,
+tbody tr td,
+div.objective-title,
+lib-managed-html div p,
+lib-managed-html div ol {
+  background-color:transparent!important;
+}
+
+
+div.card-ct {
+  outline-color:transparent!important;
+}
+
+
+div.card-top {
+  background-color:var(--SeconadryBackgroundColor)!important;
+}
+
+
+input.fr-link-attr fr-not-empty {
+  border:none!important;
+}
+
+
+span.app-title {
+  background:url(https://docs.google.com/drawings/d/e/2PACX-1vQj2TvnLq36uO3FL1h3O-_XpqsyMy2vPgqho1WTMUZuYJ0idWVBoACPrJtpmbiVslqE795FpC6whi2j/pub?w=1800&h=148)!important;
   background-size:800px!important;
   font-size:0!important;
   height:60px!important;
   margin-left:-50px!important;
   width:440px!important;
-  }
-  ::-webkit-scrollbar {
+}
+
+
+::-webkit-scrollbar {
   width:10px!important;
-  }
-  ::-webkit-scrollbar-track {
-  background:var(--TertiaryBackgroundColor)!important;
-  }
-  ::-webkit-scrollbar-thumb {
-  background:var(--SecondaryAccentTextColor)!important;
+}
+
+
+::-webkit-scrollbar-thumb {
   border-radius:20px!important;
-  }
-  input.mat-input-element.mat-form-field-autofill-control {
-  background-color:var(--TertiaryBackgroundColor)!important;
-  color:var(--SecondaryAccentTextColor)!important;
-  }
-  div.mat-radio-outer-circle {
+}
+
+
+div.mat-radio-outer-circle {
   border-color:var(--SeconderyAccentTextColor)!important;
-  }
-  mat-icon.mat-icon.notranslate.activity-icon.fal.fa-folder-open.mat-icon-no-color.ng-star-inserted {
-  color:var(--PrimaryAccentTextColor);
-  }
-  html, app-student-to-do.ng-star-inserted,app-student-courses.ng-star-inserted,app-student-stream.ng-star-inserted,mat-divider.mat-divider,app-gradebook-home.app-background-card.top-page.ng-star-inserted,mat-drawer-content.mat-drawer-content.app-background.header-collapsed,div.blog-container,mat-drawer-content.mat-drawer-content.app-background.header-expanded,app-announcement-detail.ng-star-inserted,div.hero-image-spacer-bottom.app-background.ng-star-inserted,div.main.app-background,mat-drawer-content.mat-drawer-content.app-background,div.fr-element.fr-view,form.top-content.app-background.ng-untouched.ng-pristine.ng-valid,div.open-animation-border.ng-star-inserted,div.main.ng-star-inserted,mat-toolbar.mat-toolbar.mat-toolbar-single-row.ng-untouched.ng-pristine.ng-valid.ng-star-inserted,mat-table.mat-table.cdk-table.mat-sort,app-student-activity.ng-star-inserted,app-badges.ng-star-inserted,div.main-page.app-background,form.top-content.app-background,div.questions.ng-star-inserted {
-  background-color:var(--PrimaryBackgroundColor)!important;
-  }
-  span.mat-button-toggle-label-content,mat-header-row.mat-header-row.cdk-header-row.ng-star-inserted,div.mat-menu-content,.fr-modal .fr-command.fr-btn.fr-dropdown.fr-active,.fr-popup .fr-command.fr-btn.fr-dropdown.fr-active,.fr-toolbar .fr-command.fr-btn.fr-dropdown.fr-active,button.fr-command:hover,a.fr-command:hover,a.fr-command.fr-active,button.fr-command.fr-active,div.save-status-line {
-  background-color:var(--QuaternaryBackgroundColor)!important;
-  }
-  mat-card,div.mat-drawer-inner-container,div.mat-list-item-content,div.top-content.app-background,mat-toolbar.mat-toolbar.dialog-toolbar.mat-elevation-z4.mat-toolbar-single-row,div.objective-score,mat-row.mat-row.cdk-row.ng-star-inserted,div.top-content.app-background.xli-flex-enabled,div.activity-html,div.nav-footer,div.mat-paginator-container,div.list-ct,div.announcement-list,lib-managed-html div div,mat-tree-node.mat-tree-node,mat-card-actions.mat-card-actions,mat-footer-cell.mat-footer-cell.cdk-footer-cell,div.mat-button-toggle-label-content {
-  background-color:var(--TertiaryBackgroundColor)!important;
-  }
-  ul,tr td p,td p a,p a span,span,div.fr-input-line label,div.fr-newline,lib-activity-thumbnail {
-  background-color:transparent!important;
-  }
-  .mat-icon, div,mat-label,span.mat-option-text,span.mat-content,p span span,tr,td,button.mat-sort-header-button,button div span,span.no-score.ng-star-inserted,mat-cell.mat-cell.cdk-cell.objective-cell.cdk-column-obj-a15680ee-f68f-4d88-830b-7f1d2c5f6ef7.mat-column-obj-a15680ee-f68f-4d88-830b-7f1d2c5f6ef7.ng-star-inserted,mat-cell.mat-cell.cdk-cell.objective-cell.cdk-column-obj-7b5d7d63-19ed-4ac1-b9e4-3ca576401d5f.mat-column-obj-7b5d7d63-19ed-4ac1-b9e4-3ca576401d5f.ng-star-inserted,mat-cell span span,mat-panel-title.mat-expansion-panel-header-title,span.mat-expansion-indicator,at-cell div,span span span,mat-card-title.mat-card-title,mat-card-subtitle.mat-card-subtitle,div span,span.description,h4,mat-header-cell.mat-header-cell.cdk-header-cell,mat-cell.mat-cell.cdk-cell.cdk-column-reviewed.mat-column-reviewed,.fa-youtube:before,.fa-pencil-alt:before,.fa-smile:before,.fa-microphone:before,.fa-video:before,.app-theme .ng-star-inserted.app-no-data-message h3,mat-cell.mat-cell.cdk-cell.cdk-column-submittedDate.mat-column-submittedDate.ng-star-inserted,mat-cell.mat-cell.cdk-cell.cdk-column-dueDate.mat-column-dueDate.ng-star-inserted {
-  color:var(--PrimaryTextColor)!important;
-  }
-  mat-toolbar.mat-toolbar.main-toolbar.mat-elevation-z4.app-primary-dark-background.app-primary-dark-contrast-color.buzz-main-header.mat-primary.mat-toolbar-single-row,div.toolbar {
-  background-color:var(--PrimaryMenuColor)!important;
-  }
-  div.mat-tab-labels,div.links {
-  background-color:var(--SecondaryMenuColor)!important;
-  }
-  mat-icon.mat-icon.notranslate.activity-icon.fal.fa-folder.mat-icon-no-color.ng-star-inserted,mat-icon.mat-icon.notranslate.activity-icon.fal.fa-file.mat-icon-no-color.ng-star-inserted,.app-theme p.app-foreground-secondary-text,app-no-data-message h3,.app-theme span.app-foreground-secondary-text,.app-theme .app-no-data-message h3,.app-theme div.app-foreground-secondary-text,.app-theme .app-no-data-message h3,mat-cell.mat-cell.cdk-cell.cdk-column-score.mat-column-score.ng-star-inserted,mat-footer-cell.mat-footer-cell.cdk-footer-cell.cdk-column-score,button.mat-menu-item,mat-icon.mat-icon.notranslate.activity-icon.fal.fa-file-invoice.mat-icon-no-color.ng-star-inserted,mat-cell.mat-cell.cdk-cell.cdk-column-duration.mat-column-duration.ng-star-inserted,li::marker,mat-icon.mat-icon.notranslate.activity-icon.fal.fa-ballot-check.mat-icon-no-color.ng-star-inserted {
-  color:var(--SecondaryAccentTextColor)!important;
-  }
-  mat-option.mat-option,input#fr-link-insert-layer-url-5,input#fr-link-insert-layer-text-5,.fr-popup .fr-input-line input + label,.fr-popup .fr-input-line textarea + label,.fr-popup .fr-input-line input[type=text],.fr-popup .fr-input-line textarea {
-  background-color:var(--PrimaryBackgroundColor)!important;
-  color:var(--PrimaryTextColor)!important;
-  }
-  mat-option.mat-option.mat-selected.mat-active,mat-divider.mat-divider.ng-tns-c337-98.mat-divider-horizontal {
-  background-color:var(--SecondaryTextColor)!important;
-  }
-  mat-dialog-container.mat-dialog-container.ng-trigger-dialogContainer.ng-star-inserted,span strong u {
-  background-color:var(--TertiaryBackgroundColor)!important;
-  color:var(--PrimaryTextColor)!important;
-  }
-  h4.announcement-title.ng-tns-c167-5.ng-star-inserted,mat-cell.mat-cell.cdk-cell.cdk-column-title,mat-card mat-card-content p {
-  color:var(--SecondaryTextColor)!important;
-  }
-  td.data-label,div a span,mat-cell.mat-cell.cdk-cell.cdk-column-version,span.objective-possible,a,span.post-author,.app-theme .mat-expansion-indicator:after,.app-theme .mat-expansion-panel-header-description,div.app-foreground-secondary-text.ng-star-inserted,mat-icon.mat-icon.notranslate.activity-icon.fal.fa-comments-alt.mat-icon-no-color.ng-star-inserted,mat-cell.mat-cell.cdk-cell.cdk-column-startTime.ng-star-inserted {
-  color:var(--PrimaryAccentTextColor)!important;
-  }
-  mat-expansion-panel-header.mat-expansion-panel-header,div.mat-expansion-panel-body {
-  background-color:var(--TertiaryBackgroundColor)!important;
-  border:2px solid var(--PrimaryAccentTextColor)!important;
-  }
-  span.mat-badge-content,.app-theme div.app-accent-default-background {
-  background-color:var(--SecondaryAccentTextColor)!important;
-  color:#FFFFFF;
-  }
-  div ul li,div span a,mat-icon.mat-icon.notranslate.activity-icon.fal.mat-icon-no-color.ng-star-inserted.fa-folder-open,mat-icon.mat-icon.notranslate.fas.fa-check-circle.mat-icon-no-color {
-  color:var(--PrimaryAccentTextColor)!important;
-  font-weight:700!important;
-  }
-  tbody,mat-chip.mat-chip.mat-badge.mat-primary.mat-standard-chip {
-  background-color:var(--TertiaryBackgroundColor)!important;
-  color:var(--PrimaryTextColor)!important;
-  }
-  .app-theme .app-top-tabs div.mat-tab-list .mat-ink-bar,.app-theme .app-top-tabs .mat-ink-bar,.mat-divider.mat-divider-horizontal,.app-theme .mat-tab-group.mat-primary .mat-ink-bar,.app-theme .mat-tab-nav-bar.mat-primary .mat-ink-bar,.app-theme .mat-form-field-appearance-legacy .mat-form-field-underline,div.mat-radio-inner-circle {
-  background-color:var(--PrimaryAccentTextColor)!important;
-  }
-  div.color-band.rounded,div.fr-toolbar.fr-desktop.fr-top,div.fr-popup {
-  background-color:var(--QuinaryBackgroundColor)!important;
-  }
-  button svg path,.fr-svg {
-  fill:var(--PrimaryTextColor)!important;
-  }
-  mat-card.mat-card.ng-star-inserted,mat-card.mat-card {
-  border:2px solid var(--PrimaryAccentTextColor)!important;
-  }
-  lib-managed-html div p,lib-managed-html div ol {
-  background-color:transparent!important;
-  color:var(--SecondaryTextColor)!important;
-  }
-  svg.app-loading circle {
-    fill: #CF86FF;
-  }
+}
+
+
+svg.app-loading circle {
+    fill:var(--PrimaryAccentTextColor)!important;
+}
