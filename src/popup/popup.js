@@ -21,11 +21,12 @@ document.getElementById("developersLink").addEventListener("click", openDevelope
 document.getElementById("exitDevelopers").addEventListener("click", exitDevelopers);
 document.getElementById("ThemeLoader").addEventListener("click", ThemeLoader);
 document.getElementById("OtherFeatures").addEventListener("click", OtherFeatures);
-//document.getElementById("checkbox").disabled = true;
 var previousData;
 var lenCurrentGrade;
 var lenTargetGrade;
 var lenAssignmentWeight;
+updateLocaleHTML();
+
 function Confirm() {
     var json = document.getElementById("inputTheme").value;
     var jsonParsed;
@@ -47,6 +48,7 @@ function Confirm() {
             document.getElementById("errTheme").innerHTML = "[err: 2] Error parsing theme. Try again.";
         }
     }
+    updateLocaleHTML();
 }
 function ConfirmAccess() {
     var input = document.getElementById("inputTheme").value;
@@ -71,6 +73,7 @@ function Revert() {
             document.getElementById("errTheme").innerHTML = "Reload tab to apply changes.";
         }
     });
+    updateLocaleHTML();
 }
 function openLicense() {
     document.getElementById("bottomIcons").style = "visibility: hidden;"
@@ -153,6 +156,8 @@ function Checked() {
     document.getElementById("errTheme").style = "color:#5aff47;";
     document.getElementById("errTheme").innerHTML = "Reload tab to apply changes.";
 }
+
+
 chrome.storage.local.get('Checked', function(result) {
     if (typeof result.Checked !== 'undefined') {
         CheckedJSON = JSON.stringify(result.Checked);
@@ -164,3 +169,19 @@ chrome.storage.local.get('Checked', function(result) {
         });
     }
 });
+
+function updateLocaleHTML() {
+    chrome.storage.local.get('CustomThemeJSON', function(result) {
+        try {
+            CustomJSON = JSON.stringify(result.CustomThemeJSON);
+            CustomData = JSON.parse(CustomJSON);
+            if(CustomData.ThemeName == undefined) {
+                document.getElementById("errTheme").style = "color:#ff5a47;";
+                document.getElementById("errTheme").innerHTML = "[err: 3] Theme code obsolete. Consider updating to new format.";
+            }
+            document.getElementById("currentTheme").innerHTML = CustomData.ThemeName;
+        } catch {
+            document.getElementById("currentTheme").innerHTML = "Default";
+        }
+    });
+}

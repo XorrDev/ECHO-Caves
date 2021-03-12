@@ -87,7 +87,8 @@ mat-dialog-container.mat-dialog-container.ng-trigger-dialogContainer.ng-star-ins
 span strong u,
 mat-expansion-panel-header.mat-expansion-panel-header,
 div.mat-expansion-panel-body,
-mat-chip.mat-chip.mat-badge.mat-primary.mat-standard-chip {
+mat-chip.mat-chip.mat-badge.mat-primary.mat-standard-chip,
+div strong span {
   background-color:var(--TertiaryBackgroundColor)!important;
 }
 
