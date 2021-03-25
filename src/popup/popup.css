@@ -1,314 +1,361 @@
-@font-face {
-	font-family:"Roboto";
-	src:url(".fonts/roboto-regular-webfont.ttf")
-	}
-	html {
-	text-align:center;
-	font-family:"Roboto",fallback,sans-serif
-	}
-	body {
-	border:6px solid #CF86FF;
-	background-color:#313949;
-	border-radius:10px;
-	width:350px
-	}
-	#Title {
-	color:#FFF;
-	font-weight:700;
-	font-size:32px
-	}
-	#Header {
-	display:flex;
-	margin:auto;
-	width:85%;
-	align-items:center
-	}
-	.switch {
-	margin:auto
-	}
-	h4 {
-	color:#CF86FF;
-	font-weight:700
-	}
-	.Category {
-	margin-left:0;
-	color:#00ACFF;
-	font-weight:700;
-	font-size:12px;
-	text-align:center
-	}
-	#ThemeLoader {
-	width:150px;
-	height:40px
-	}
-	#OtherFeatures {
-	width:150px;
-	height:40px
-	}
-	#Confirm {
-	width:150px;
-	height:40px
-	}
-	#Revert {
-	width:150px;
-	height:40px
-	}
-	.Calculate {
-	width:150px;
-	height:40px
-	}
-	.MainDivider {
-	margin-top:15px;
-	border:3px solid #8355a1
-	}
-	#Menu {
-	background-color:#202530;
-	border-top-right-radius:4px;
-	border-top-left-radius:4px
-	}
-	.menuIcons {
-	width:35px;
-	margin:0 10px;
-	transition:transform .1s ease-in
-	}
-	.menuIcons:hover {
-	transform:scale(1.2)
-	}
-	input {
-	margin-bottom:5px
-	}
-	p {
-	font-size:20px
-	}
-	.Buttons {
-	background-color:#5A6E92;
-	margin-top:15px;
-	color:#FFF;
-	font-size:14px;
-	font-weight:700;
-	border:4px solid #44536E;
-	border-radius:10px;
-	outline:none
-	}
-	.Buttons:hover {
-	cursor:pointer
-	}
-	.ButtonsJSON {
-	background-color:#5A6E92;
-	margin-top:15px;
-	color:#FFF;
-	font-size:14px;
-	font-weight:700;
-	border:4px solid #44536E;
-	border-radius:10px;
-	outline:none
-	}
-	.ButtonsJSON:enabled:hover {
-	cursor:pointer
-	}
-	.ButtonsJSON:disabled:hover {
-	cursor:not-allowed
-	}
-	::-webkit-file-upload-button {
-	background-color:#999696;
-	color:#FFF;
-	border:1px solid #CF86FF;
-	position:absolute;
-	margin:auto;
-	border-radius:20px
-	}
-	input[name="jsonData"] {
-	width:30%;
-	height:40px
-	}
-	#fileName {
-	font-size:15px
-	}
-	.accents, a {
-	color:#CF86FF
-	}
-	.switch {
-	position:relative;
-	display:flex;
-	width:60px;
-	height:34px;
-	color:#383838;
-	left:20px
-	}
-	.switch input {
-	opacity:0;
-	width:0;
-	height:0
-	}
-	.slider {
-	position:absolute;
-	cursor:pointer;
-	top:0;
-	left:0;
-	right:0;
-	bottom:0;
-	background-color:#5A6E92;
-	-webkit-transition:.4s;
-	transition:.4s
-	}
-	.slider:before {
-	position:absolute;
-	content:"";
-	height:26px;
-	width:26px;
-	left:4px;
-	bottom:4px;
-	background-color:#FFF;
-	-webkit-transition:.4s;
-	transition:.4s
-	}
-	input:checked+.slider {
-	background-color:#527ac4
-	}
-	input:focus+.slider {
-	box-shadow:0 0 1px #527ac4
-	}
-	input:checked+.slider:before {
-	-webkit-transform:translateX(26px);
-	-ms-transform:translateX(26px);
-	transform:translateX(26px)
-	}
-	.slider.round {
-	border-radius:34px
-	}
-	.slider.round:before {
-	border-radius:50%
-	}
-		.inputText {
-	background-color:#313949;
-	color:#FFF;
-	height:30px;
-	font-size:18px;
-	border-radius: 10px;
-	box-shadow: inset 5px 5px 11px #111111,
-            inset -5px -5px 11px #1f1f1f;
-	}
-	
-	.calcInput {
-	width:150px;
-	font-size:15px
-	}
-	input::-webkit-outer-spin-button,input::-webkit-inner-spin-button {
-	-webkit-appearance:none;
-	margin:0
-	}
-	input[type=number] {
-	-moz-appearance:textfield
-	}
-	.finalCalculation {
-	padding:16px
-	}
-	#score {
-	background-color:#f3ec78;
-	background-image:linear-gradient(#CF86FF,#00ACFF);
-	background-size:100%;
-	background-clip:border-box;
-	-webkit-background-clip:text;
-	-moz-background-clip:text;
-	-webkit-text-fill-color:transparent;
-	-moz-text-fill-color:transparent
-	}
-	.err {
-	color:#FFF;
-	font-size:12px;
-	position:block;
-	margin:auto;
-	width:80%
-	}
-	#popup {
-	background-color:#354157;
-	position:absolute;
-	height:80%;
-	width:80%;
-	left:38px;
-	top:60px;
-	border:1px solid #CF86FF;
-	animation:popupAnim 1s linear;
-	text-align:left
-	}
-	.Wrapper {
-	display:flex
-	}
-	.answerText {
-	text-align:center
-	}
-	.calcDiv {
-	width:50%;
-	padding:10px;
-	text-align:center
-	}
-	#licenseText {
-	margin-top:2%;
-	margin-left:8%;
-	margin-right:8%;
-	color:#FFF;
-	font-size:14px;
-	text-align:center
-	}
-	#exitLicense {
-	background-color:transparent;
-	color:#FFF;
-	border:none;
-	outline:none
-	}
-	#exitLicense:hover {
-	cursor:pointer
-	}
-	#mainLicense {
-	background-color:rgba(0,0,0,0.5);
-	margin:0;
-	width:102%;
-	height:102%;
-	margin:-28px -18px;
-	position:absolute;
-	visibility:hidden;
-	text-align:center;
-	z-index:1;
-	}
-	#DevelopersText {
-	margin-top:2%;
-	margin-left:6%;
-	margin-right:6%;
-	color:#FFF;
-	font-size:14px;
-	text-align:center
-	}
-	#exitDevelopers {
-	background-color:transparent;
-	color:#FFF;
-	border:none;
-	outline:none
-	}
-	#exitDevelopers:hover {
-	cursor:pointer
-	}
-	#mainDevelopers {
-	background-color:rgba(0,0,0,0.5);
-	margin:0;
-	width:102%;
-	height:102%;
-	margin:-28px -18px;
-	position:absolute;
-	z-index:10;
-	visibility:hidden;
-	text-align:center
-	}
-	#Developers {
-	font-size:20px
-	}
-	#Developers .developerLogo {
-	width:80px;
-	border-radius:50%;
-	margin-bottom:15px
-	}
-	#Developers span {
-	margin-left:10px
-	}
-	#aboutReactJS {
-	margin-top:-40px
-	}
+@font-face
+{
+  font-family:Roboto;
+  src:url(.fonts/roboto-regular-webfont.ttf);
+}
+
+html
+{
+  text-align:center;
+  font-family:Roboto,fallback,sans-serif;
+}
+
+body
+{
+  border:6px solid #CF86FF;
+  background-color:#313949;
+  border-radius:10px;
+  width:350px;
+}
+
+#Title
+{
+  color:#FFF;
+  font-weight:700;
+  font-size:32px;
+}
+
+#Header
+{
+  display:flex;
+  width:85%;
+  align-items:center;
+  margin:auto;
+}
+
+.switch
+{
+  position:relative;
+  display:flex;
+  width:60px;
+  height:34px;
+  color:#383838;
+  left:20px;
+  margin:auto;
+}
+
+h4
+{
+  color:#CF86FF;
+  font-weight:700;
+}
+
+.Category
+{
+  margin-left:0;
+  color:#00ACFF;
+  font-weight:700;
+  font-size:12px;
+  text-align:center;
+}
+
+.MainDivider
+{
+  margin-top:15px;
+  border:3px solid #8355a1;
+}
+
+#Menu
+{
+  background-color:#202530;
+  border-top-right-radius:4px;
+  border-top-left-radius:4px;
+}
+
+.menuIcons
+{
+  width:35px;
+  transition:transform .1s ease-in;
+  margin:0 10px;
+}
+
+.menuIcons:hover
+{
+  transform:scale(1.2);
+}
+
+input
+{
+  margin-bottom:5px;
+}
+
+.ButtonsJSON:disabled:hover
+{
+  cursor:not-allowed;
+}
+
+::-webkit-file-upload-button
+{
+  background-color:#999696;
+  color:#FFF;
+  border:1px solid #CF86FF;
+  position:absolute;
+  border-radius:20px;
+  margin:auto;
+}
+
+input[name="jsonData"]
+{
+  width:30%;
+  height:40px;
+}
+
+#fileName
+{
+  font-size:15px;
+}
+
+.accents,a
+{
+  color:#CF86FF;
+}
+
+.switch input
+{
+  opacity:0;
+  width:0;
+  height:0;
+}
+
+.slider
+{
+  position:absolute;
+  cursor:pointer;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  background-color:#5A6E92;
+  -webkit-transition:.4s;
+  transition:.4s;
+}
+
+.slider:before
+{
+  position:absolute;
+  content:"";
+  height:26px;
+  width:26px;
+  left:4px;
+  bottom:4px;
+  background-color:#FFF;
+  -webkit-transition:.4s;
+  transition:.4s;
+}
+
+input:checked+.slider
+{
+  background-color:#527ac4;
+}
+
+input:focus+.slider
+{
+  box-shadow:0 0 1px #527ac4;
+}
+
+input:checked+.slider:before
+{
+  -webkit-transform:translateX(26px);
+  -ms-transform:translateX(26px);
+  transform:translateX(26px);
+}
+
+.slider.round
+{
+  border-radius:34px;
+}
+
+.slider.round:before
+{
+  border-radius:50%;
+}
+
+.inputText
+{
+  background-color:#313949;
+  color:#FFF;
+  height:30px;
+  font-size:18px;
+  border-radius:10px;
+  box-shadow:inset 3px 3px 8px #111111,inset -3px -3px 8px #1f1f1f;
+}
+
+.calcInput
+{
+  width:150px;
+  font-size:15px;
+}
+
+input::-webkit-outer-spin-button,input::-webkit-inner-spin-button
+{
+  -webkit-appearance:none;
+  margin:0;
+}
+
+input[type=number]
+{
+  -moz-appearance:textfield;
+}
+
+.finalCalculation
+{
+  padding:16px;
+}
+
+#score
+{
+  background-color:#f3ec78;
+  background-image:linear-gradient(#CF86FF,#00ACFF);
+  background-size:100%;
+  background-clip:border-box;
+  -webkit-background-clip:text;
+  -moz-background-clip:text;
+  -webkit-text-fill-color:transparent;
+  -moz-text-fill-color:transparent;
+}
+
+.err
+{
+  color:#FFF;
+  font-size:12px;
+  position:block;
+  width:80%;
+  margin:auto;
+}
+
+#popup
+{
+  background-color:#354157;
+  position:absolute;
+  height:80%;
+  width:80%;
+  left:38px;
+  top:60px;
+  border:1px solid #CF86FF;
+  animation:popupAnim 1s linear;
+  text-align:left;
+}
+
+.Wrapper
+{
+  display:flex;
+}
+
+.answerText
+{
+  text-align:center;
+}
+
+.calcDiv
+{
+  width:50%;
+  text-align:center;
+  padding:10px;
+}
+
+#licenseText
+{
+  margin-top:2%;
+  margin-left:8%;
+  margin-right:8%;
+  color:#FFF;
+  font-size:14px;
+  text-align:center;
+}
+
+#mainLicense
+{
+  background-color:rgba(0,0,0,0.5);
+  width:102%;
+  height:102%;
+  position:absolute;
+  visibility:hidden;
+  text-align:center;
+  z-index:1;
+  margin:-28px -18px;
+}
+
+#DevelopersText
+{
+  margin-top:2%;
+  margin-left:6%;
+  margin-right:6%;
+  color:#FFF;
+  font-size:14px;
+  text-align:center;
+}
+
+#mainDevelopers
+{
+  background-color:rgba(0,0,0,0.5);
+  width:102%;
+  height:102%;
+  position:absolute;
+  z-index:10;
+  visibility:hidden;
+  text-align:center;
+  margin:-28px -18px;
+}
+
+#Developers .developerLogo
+{
+  width:80px;
+  border-radius:50%;
+  margin-bottom:15px;
+}
+
+#Developers span
+{
+  margin-left:10px;
+}
+
+#aboutReactJS
+{
+  margin-top:-40px;
+}
+
+#ThemeLoader,#OtherFeatures,#Confirm,#Revert,.Calculate
+{
+  width:150px;
+  height:40px;
+}
+
+p,#Developers
+{
+  font-size:20px;
+}
+
+.Buttons,.ButtonsJSON
+{
+  background-color:#5A6E92;
+  margin-top:15px;
+  color:#FFF;
+  font-size:14px;
+  font-weight:700;
+  border:4px solid #44536E;
+  border-radius:10px;
+  outline:none;
+}
+
+.Buttons:hover,.ButtonsJSON:enabled:hover,#exitLicense:hover,#exitDevelopers:hover
+{
+  cursor:pointer;
+}
+
+#exitLicense,#exitDevelopers
+{
+  background-color:transparent;
+  color:#FFF;
+  border:none;
+  outline:none;
+}

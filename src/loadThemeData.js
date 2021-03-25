@@ -11,6 +11,7 @@ chrome.storage.local.get('Checked', function (result) {
                     CustomJSON = JSON.stringify(result.CustomThemeJSON);
                     CustomData = JSON.parse(CustomJSON);
                     loadTheme();
+                    removeInlineStyles();
                     console.log('%c[EC] Loading custom theme.', 'color: #00FF00');
                 } catch {
                     console.log('%c[EC] Loading default theme.', 'color: #00FF00');
@@ -37,6 +38,7 @@ function loadTheme() {
     document.documentElement.style.setProperty("--PrimaryGradeColor", CustomData.Grade.NewPrimaryGradeColor);
     document.documentElement.style.setProperty("--SecondaryGradeColor", CustomData.Grade.NewSecondaryGradeColor);
     document.documentElement.style.setProperty("--TertiaryGradeColor", CustomData.Grade.NewTertiaryGradeColor);
+    document.documentElement.style.setProperty("--TertiaryGaugeTransparency", CustomData.Background.NewTertiaryBackgroundColor + 'BF');
     document.documentElement.style.setProperty("--PrimaryMenuColor", CustomData.Menu.NewPrimaryMenuColor);
     document.documentElement.style.setProperty("--SecondaryMenuColor", CustomData.Menu.NewSecondaryMenuColor);
 }

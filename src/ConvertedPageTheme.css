@@ -13,9 +13,11 @@
   --PrimaryGradeColor:#00FF00;
   --SecondaryGradeColor:#00DF00;
   --TertiaryGradeColor:#59FF59;
+  --TertiaryGaugeTransparency:#383838BF;
   
   --PrimaryMenuColor:#585858;
   --SecondaryMenuColor:#484848;
+
 }
 
 
@@ -52,13 +54,16 @@ input#fr-link-insert-layer-text-5,
 .fr-popup .fr-input-line input + label,
 .fr-popup .fr-input-line textarea + label,
 .fr-popup .fr-input-line input[type = text],
-.fr-popup .fr-input-line textarea {
+.fr-popup .fr-input-line textarea,
+div.form-ct,
+div.rubric-header {
   background-color:var(--PrimaryBackgroundColor)!important;
 }
 
 
 div.mat-form-field-flex4,
-ul.fr-dropdown-list {
+ul.fr-dropdown-list,
+div.card-top {
   background-color:var(--SecondaryBackgroundColor)!important;
 }
 
@@ -82,13 +87,16 @@ mat-card-actions.mat-card-actions,
 mat-footer-cell.mat-footer-cell.cdk-footer-cell,
 div.mat-button-toggle-label-content,
 input.mat-input-element.mat-form-field-autofill-control,
-::-webkit-scrollbar-track,
 mat-dialog-container.mat-dialog-container.ng-trigger-dialogContainer.ng-star-inserted,
 span strong u,
 mat-expansion-panel-header.mat-expansion-panel-header,
 div.mat-expansion-panel-body,
 mat-chip.mat-chip.mat-badge.mat-primary.mat-standard-chip,
-div strong span {
+div strong span,
+div.objective-title,
+::-webkit-scrollbar-track,
+lib-managed-html.comments.ng-star-inserted,
+form.app-background-card.mat-elevation-z2.ng-untouched.ng-pristine.ng-valid {
   background-color:var(--TertiaryBackgroundColor)!important;
 }
 
@@ -106,7 +114,8 @@ button.fr-command.fr-active,
 div.save-status-line,
 th.mat-header-cell.cdk-header-cell.cdk-column-creationdate.mat-column-creationdate,
 th.mat-header-cell.cdk-header-cell.cdk-column-expand.mat-column-expand,
-th.mat-header-cell.cdk-header-cell.cdk-column-title.mat-column-title {
+th.mat-header-cell.cdk-header-cell.cdk-column-title.mat-column-title,
+td.ng-star-inserted {
   background-color:var(--QuaternaryBackgroundColor)!important;
 }
 
@@ -114,7 +123,8 @@ th.mat-header-cell.cdk-header-cell.cdk-column-title.mat-column-title {
 div.color-band.rounded,
 div.fr-toolbar.fr-desktop.fr-top,
 div.fr-popup,
-mat-chip.mat-chip.mat-primary.mat-standard-chip {
+mat-chip.mat-chip.mat-primary.mat-standard-chip,
+.app-theme .mat-progress-bar-buffer {
   background-color:var(--QuinaryBackgroundColor)!important;
 }
 
@@ -180,7 +190,8 @@ span.mat-button-wrapper,
 mat-cell.mat-cell.cdk-cell.cdk-column-location.mat-column-location.ng-star-inserted,
 .app-theme .mat-badge-medium.mat-badge-after .mat-badge-content,
 span.mat-badge-content,
-.app-theme div.app-accent-default-background {
+.app-theme div.app-accent-default-background,
+lib-managed-html div div {
   color:var(--PrimaryTextColor)!important;
 }
 
@@ -222,7 +233,8 @@ lib-managed-html div ol {
 .app-theme .mat-tab-group.mat-primary .mat-ink-bar,
 .app-theme .mat-tab-nav-bar.mat-primary .mat-ink-bar,
 .app-theme .mat-form-field-appearance-legacy .mat-form-field-underline,
-div.mat-radio-inner-circle {
+div.mat-radio-inner-circle,
+.app-theme .mat-progress-bar-fill:after {
   background-color:var(--PrimaryAccentTextColor)!important;
 }
 
@@ -230,7 +242,8 @@ div.mat-radio-inner-circle {
 mat-expansion-panel-header.mat-expansion-panel-header,
 div.mat-expansion-panel-body,
 mat-card.mat-card.ng-star-inserted,
-mat-card.mat-card {
+mat-card.mat-card,
+div.rubric-header {
   border:2px solid var(--PrimaryAccentTextColor)!important;
 }
 
@@ -286,14 +299,13 @@ input.mat-input-element.mat-form-field-autofill-control,
 td.mat-cell.cdk-cell.cdk-column-creationdate.mat-column-creationdate.ng-tns-c317-196,
 td.mat-cell.cdk-cell.cdk-column-title.mat-column-title.ng-tns-c317-196,
 mat-icon.mat-icon.notranslate.activity-icon.fal.fa-book.mat-icon-no-color.ng-star-inserted,
-mat-chip.mat-chip.mat-primary.mat-standard-chip,
-::-webkit-scrollbar-thumb {
+mat-chip.mat-chip.mat-primary.mat-standard-chip {
   color:var(--SecondaryAccentTextColor)!important;
 }
 
 
-span.mat-badge-content,
-.app-theme div.app-accent-default-background {
+.app-theme div.app-accent-default-background,
+span.mat-badge-content {
   background-color:var(--SecondaryAccentTextColor)!important;
 }
 
@@ -302,6 +314,19 @@ span.mat-badge-content,
 .fr-popup .fr-command.fr-btn.fr-dropdown:after,
 .fr-toolbar .fr-command.fr-btn.fr-dropdown:after {
   border-top:4px solid var(--SecondaryAccentTextColor)!important;
+}
+
+
+
+div.divider.ng-star-inserted {
+  padding: 1.8em;
+  border-top: 1px var(--SecondaryAccentTextColor) solid;
+}
+
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--SecondaryAccentTextColor)!important;
+  border-radius: 10px;
 }
 
 
@@ -390,12 +415,9 @@ img.side-menu-logo {
   text-align:center!important;
 }
 
-
-div.gauge-progress {
-  border-style:none!important;
-  display:none!important;
+.gauge-progress::after {
+  background-color: var(--TertiaryGaugeTransparency) !important;
 }
-
 
 img.side-menu-logo,
 img.app-logo {
@@ -431,7 +453,6 @@ div.fr-input-line label,
 div.fr-newline,
 lib-activity-thumbnail,
 tbody tr td,
-div.objective-title,
 lib-managed-html div p,
 lib-managed-html div ol {
   background-color:transparent!important;
@@ -443,13 +464,13 @@ div.card-ct {
 }
 
 
-div.card-top {
-  background-color:var(--SeconadryBackgroundColor)!important;
+input.fr-link-attr fr-not-empty {
+  border:none!important;
 }
 
 
-input.fr-link-attr fr-not-empty {
-  border:none!important;
+div.detail-ct div.score-ct, div.progress-label, mat-card-actions.mat-card-actions.mat-card-actions-align-end {
+  opacity: 1!important;
 }
 
 
@@ -464,12 +485,7 @@ span.app-title {
 
 
 ::-webkit-scrollbar {
-  width:10px!important;
-}
-
-
-::-webkit-scrollbar-thumb {
-  border-radius:20px!important;
+  width: 10px;
 }
 
 
@@ -480,4 +496,11 @@ div.mat-radio-outer-circle {
 
 svg.app-loading circle {
     fill:var(--PrimaryAccentTextColor)!important;
+}
+
+app-student-to-do mat-card.mat-card.mat-focus-indicator {
+  display: block;
+  margin: 24px auto;
+  width: 860px;
+  max-width: 860px;
 }
