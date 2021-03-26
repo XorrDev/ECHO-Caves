@@ -180,6 +180,7 @@ function updateLocaleHTML() {
                 document.getElementById("errTheme").innerHTML = "[err: 3] Theme code obsolete. Consider updating to new format.";
             }
             document.getElementById("currentTheme").innerHTML = CustomData.ThemeName;
+            
         } catch {
             document.getElementById("currentTheme").innerHTML = "Default";
         }
