@@ -465,7 +465,8 @@ div.fr-newline,
 lib-activity-thumbnail,
 tbody tr td,
 lib-managed-html div p,
-lib-managed-html div ol {
+lib-managed-html div ol
+lib-managed-html.comment {
   background-color:transparent!important;
 }
 
