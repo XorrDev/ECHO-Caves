@@ -1,9 +1,9 @@
 {
     "manifest_version": 2,
     "name": "ECHO Caves (Alpha)",
-    "version": "0.80.0",
+    "version": "0.81.1",
     "description": "Dark theme and custom theme loader for Buzz ECHO.",
-    "icons": {"128": "images/icon128.png","48": "images/icon48.png"},
+    "icons": {"128": "images/icon.png","48": "images/icon.png"},
     "browser_action": {"default_popup": "popup/popup.html"},
     "permissions": ["storage"],
     "web_accessible_resources": ["ConvertedPageTheme.css"],

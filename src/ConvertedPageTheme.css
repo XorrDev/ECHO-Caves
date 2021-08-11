@@ -4,25 +4,22 @@
   --TertiaryBackgroundColor:#383838;
   --QuaternaryBackgroundColor:#484848;
   --QuinaryBackgroundColor:#585858;
+  --TertiaryGaugeTransparency:#383838BF;
   
   --PrimaryTextColor:#ffffff;
   --SecondaryTextColor:#B3B3B3;
   --PrimaryAccentTextColor:#CF86FF;
   --SecondaryAccentTextColor:#00ACFF;
 
-  --PrimaryGradeColor:#00FF00;
-  --SecondaryGradeColor:#00DF00;
-  --TertiaryGradeColor:#59FF59;
-  --TertiaryGaugeTransparency:#383838BF;
+  --GradePassColor:#00DF00;
+  --GradeFailColor:#ff5f59;
   
   --PrimaryMenuColor:#585858;
   --SecondaryMenuColor:#484848;
-
 }
 
 
 /*+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+     Background Color     =+=+=+=+=*/
-
 
 html,
  app-student-to-do.ng-star-inserted,
@@ -157,6 +154,7 @@ span.mat-content,
 p span span,
 tr,
 td,
+span.objective-title-abbrev.ng-star-inserted,
 button.mat-sort-header-button,
 button div span,
 span.no-score.ng-star-inserted,
@@ -169,7 +167,6 @@ at-cell div,
 span span span,
 mat-card-title.mat-card-title,
 mat-card-subtitle.mat-card-subtitle,
-div span,
 span.description,
 h4,
 mat-header-cell.mat-header-cell.cdk-header-cell,
@@ -285,7 +282,8 @@ span span a,
 th.mat-header-cell.cdk-header-cell.cdk-column-title.mat-column-title,
 a.text-only,
 mat-icon.mat-icon.notranslate.activity-icon.fal.fa-folder-open.mat-icon-no-color.ng-star-inserted,
-th.mat-header-cell.cdk-header-cell.cdk-column-creationdate.mat-column-creationdate {
+th.mat-header-cell.cdk-header-cell.cdk-column-creationdate.mat-column-creationdate,
+div.note.ng-star-inserted strong span {
   color:var(--PrimaryAccentTextColor)!important;
 }
 
@@ -343,22 +341,12 @@ div.divider.ng-star-inserted {
 
 /*+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+     Grade Color     =+=+=+=+=*/
 
-
-span.percent.ng-star-inserted {
-  color:var(--PrimaryGradeColor)!important;
+span.score.pass-color.ng-star-inserted {
+  color:var(--GradePassColor)!important;
 }
-
-
-span.letter.ng-star-inserted {
-  color:var(--SecondaryGradeColor)!important;
+span.score.fail-color.ng-star-inserted {
+  color:var(--GradeFailColor)!important;
 }
-
-
-span.points.ng-star-inserted {
-  color:var(--TertiaryGradeColor)!important;
-}
-
-
 /*+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+     Menu Color     =+=+=+=+=*/
 
 
@@ -520,3 +508,5 @@ app-student-to-do mat-card.mat-card.mat-focus-indicator {
 lib-managed-html.ng-star-inserted {
   padding: 2em;
 }
+
+

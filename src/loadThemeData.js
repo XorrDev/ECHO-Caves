@@ -25,24 +25,31 @@ chrome.storage.local.get('Checked', function (result) {
         console.log('%c[EC] Theme state: ' + result.Checked + '\nInitializing Theme State to true. ', 'color: #FF8000');
     }
 }); 
+
 function loadTheme() {
     document.documentElement.style.setProperty("--PrimaryBackgroundColor", CustomData.Background.NewPrimaryBackgroundColor);
     document.documentElement.style.setProperty("--SecondaryBackgroundColor", CustomData.Background.NewSecondaryBackgroundColor);
     document.documentElement.style.setProperty("--TertiaryBackgroundColor", CustomData.Background.NewTertiaryBackgroundColor);
     document.documentElement.style.setProperty("--QuaternaryBackgroundColor", CustomData.Background.NewQuaternaryBackgroundColor);
     document.documentElement.style.setProperty("--QuinaryBackgroundColor", CustomData.Background.NewQuinaryBackgroundColor);
+    document.documentElement.style.setProperty("--TertiaryGaugeTransparency", `${CustomData.Background.NewTertiaryBackgroundColor}BF`);
+
     document.documentElement.style.setProperty("--PrimaryTextColor", CustomData.Text.NewPrimaryTextColor);
     document.documentElement.style.setProperty("--SecondaryTextColor", CustomData.Text.NewSecondaryTextColor);
     document.documentElement.style.setProperty("--PrimaryAccentTextColor", CustomData.Text.NewPrimaryAccentTextColor);
     document.documentElement.style.setProperty("--SecondaryAccentTextColor", CustomData.Text.NewSecondaryAccentTextColor);
-    document.documentElement.style.setProperty("--PrimaryGradeColor", CustomData.Grade.NewPrimaryGradeColor);
-    document.documentElement.style.setProperty("--SecondaryGradeColor", CustomData.Grade.NewSecondaryGradeColor);
-    document.documentElement.style.setProperty("--TertiaryGradeColor", CustomData.Grade.NewTertiaryGradeColor);
-    document.documentElement.style.setProperty("--TertiaryGaugeTransparency", CustomData.Background.NewTertiaryBackgroundColor + 'BF');
+
+    document.documentElement.style.setProperty("--GradePassColor", CustomData.Grade.NewGradePassColor);
+    document.documentElement.style.setProperty("--GradeFailColor", CustomData.Grade.NewGradeFailColor);
+    
     document.documentElement.style.setProperty("--PrimaryMenuColor", CustomData.Menu.NewPrimaryMenuColor);
     document.documentElement.style.setProperty("--SecondaryMenuColor", CustomData.Menu.NewSecondaryMenuColor);
 }
+
 function getThemeStyleSheet() {
-    var LoadedTheme = chrome.extension.getURL("ConvertedPageTheme.css");
-    document.head.innerHTML += "<link rel=\"stylesheet\" type=\"text/css\" href=\""+LoadedTheme+"\">";
+    let link = document.createElement("link");
+    link.href = chrome.extension.getURL("ConvertedPageTheme.css");
+    link.rel = "stylesheet";
+    link.type = "text/css";
+    document.head.appendChild(link);
 }
