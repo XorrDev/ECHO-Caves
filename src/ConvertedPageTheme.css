@@ -53,7 +53,8 @@ input#fr-link-insert-layer-text-5,
 .fr-popup .fr-input-line input[type = text],
 .fr-popup .fr-input-line textarea,
 div.form-ct,
-div.rubric-header {
+div.rubric-header,
+button.mat-button-toggle-button.mat-focus-indicator {
   background-color:var(--PrimaryBackgroundColor)!important;
 }
 
@@ -98,7 +99,6 @@ form.app-background-card.mat-elevation-z2.ng-untouched.ng-pristine.ng-valid {
 }
 
 
-span.mat-button-toggle-label-content,
 mat-header-row.mat-header-row.cdk-header-row.ng-star-inserted,
 div.mat-menu-content,
 .fr-modal .fr-command.fr-btn.fr-dropdown.fr-active,
@@ -160,7 +160,6 @@ button div span,
 span.no-score.ng-star-inserted,
 mat-cell.mat-cell.cdk-cell.objective-cell.cdk-column-obj-a15680ee-f68f-4d88-830b-7f1d2c5f6ef7.mat-column-obj-a15680ee-f68f-4d88-830b-7f1d2c5f6ef7.ng-star-inserted,
 mat-cell.mat-cell.cdk-cell.objective-cell.cdk-column-obj-7b5d7d63-19ed-4ac1-b9e4-3ca576401d5f.mat-column-obj-7b5d7d63-19ed-4ac1-b9e4-3ca576401d5f.ng-star-inserted,
-mat-cell span span,
 mat-panel-title.mat-expansion-panel-header-title,
 span.mat-expansion-indicator,
 at-cell div,
@@ -205,7 +204,10 @@ mat-cell.mat-cell.cdk-cell.cdk-column-location.mat-column-location.ng-star-inser
 .app-theme .mat-badge-medium.mat-badge-after .mat-badge-content,
 span.mat-badge-content,
 .app-theme div.app-accent-default-background,
-lib-managed-html div div {
+lib-managed-html div div,
+h1.mat-dialog-title.dialog-title,
+span.mat-button-toggle-label-content,
+mat-cell.mat-cell.cdk-cell.cdk-column-title.mat-column-title {
   color:var(--PrimaryTextColor)!important;
 }
 
@@ -236,7 +238,8 @@ h4.announcement-title.ng-tns-c167-5.ng-star-inserted,
 mat-cell.mat-cell.cdk-cell.cdk-column-title,
 mat-card mat-card-content p,
 lib-managed-html div p,
-lib-managed-html div ol {
+lib-managed-html div ol,
+mat-cell.mat-cell.cdk-cell.cdk-column-title.mat-column-title.toc-depth1.ng-star-inserted {
   color:var(--SecondaryTextColor)!important;
 }
 
@@ -283,7 +286,8 @@ th.mat-header-cell.cdk-header-cell.cdk-column-title.mat-column-title,
 a.text-only,
 mat-icon.mat-icon.notranslate.activity-icon.fal.fa-folder-open.mat-icon-no-color.ng-star-inserted,
 th.mat-header-cell.cdk-header-cell.cdk-column-creationdate.mat-column-creationdate,
-div.note.ng-star-inserted strong span {
+div.note.ng-star-inserted strong span,
+span.submit-disabled.ng-star-inserted {
   color:var(--PrimaryAccentTextColor)!important;
 }
 
@@ -314,7 +318,9 @@ input.mat-input-element.mat-form-field-autofill-control,
 td.mat-cell.cdk-cell.cdk-column-creationdate.mat-column-creationdate.ng-tns-c317-196,
 td.mat-cell.cdk-cell.cdk-column-title.mat-column-title.ng-tns-c317-196,
 mat-icon.mat-icon.notranslate.activity-icon.fal.fa-book.mat-icon-no-color.ng-star-inserted,
-mat-chip.mat-chip.mat-primary.mat-standard-chip {
+mat-chip.mat-chip.mat-primary.mat-standard-chip,
+span.intro.ng-star-inserted,
+mat-icon.mat-icon.notranslate.mat-tooltip-trigger.material-icons.mat-icon-no-color.ng-star-inserted {
   color:var(--SecondaryAccentTextColor)!important;
 }
 
@@ -333,8 +339,9 @@ div.divider.ng-star-inserted {
 }
 
 
-::-webkit-scrollbar-thumb {
-  background-color: var(--SecondaryAccentTextColor)!important;
+::-webkit-scrollbar-thumb,
+span.mat-button-toggle-label-content {
+  background-color:var(--SecondaryAccentTextColor)!important;
   border-radius: 10px;
 }
 
@@ -403,6 +410,9 @@ span.course-title {
   font-weight:700!important;
 }
 
+mat-icon.mat-icon.notranslate.fas.fa-check-circle.mat-icon-no-color {
+  font-size:18px;
+}
 
 a.text-only {
   text-transform:capitalize!important;
@@ -415,7 +425,7 @@ img.side-menu-logo {
 }
 
 .gauge-progress::after {
-  background-color: var(--TertiaryGaugeTransparency) !important;
+  background-color:var(--TertiaryGaugeTransparency) !important;
 }
 
 img.side-menu-logo,
@@ -429,6 +439,10 @@ div.side-menu-logo-ct {
   background-size:410px 55px!important;
   margin-left:5px!important;
   margin-top:5px!important;
+}
+
+.app-theme .mat-button-toggle-group-appearance-standard .mat-button-toggle+.mat-button-toggle {
+  margin-left: 0.7em;
 }
 
 
@@ -454,7 +468,8 @@ lib-activity-thumbnail,
 tbody tr td,
 lib-managed-html div p,
 lib-managed-html div ol,
-lib-managed-html.comment {
+lib-managed-html.comment,
+.app-theme .mat-button-toggle-group-appearance-standard .mat-button-toggle+.mat-button-toggle {
   background-color:transparent!important;
 }
 
