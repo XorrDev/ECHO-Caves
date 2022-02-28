@@ -53,7 +53,9 @@ input#fr-link-insert-layer-text-5,
 .fr-popup .fr-input-line input[type = text],
 .fr-popup .fr-input-line textarea,
 div.form-ct,
-div.rubric-header {
+div.rubric-header,
+div.mat-menu-content,
+mat-dialog-container.mat-dialog-container.ng-trigger-dialogContainer.ng-star-inserted {
   background-color:var(--PrimaryBackgroundColor)!important;
 }
 
@@ -78,13 +80,11 @@ div.nav-footer,
 div.mat-paginator-container,
 div.list-ct,
 div.announcement-list,
-lib-managed-html div div,
 mat-tree-node.mat-tree-node,
 mat-card-actions.mat-card-actions,
 mat-footer-cell.mat-footer-cell.cdk-footer-cell,
 div.mat-button-toggle-label-content,
 input.mat-input-element.mat-form-field-autofill-control,
-mat-dialog-container.mat-dialog-container.ng-trigger-dialogContainer.ng-star-inserted,
 span strong u,
 mat-expansion-panel-header.mat-expansion-panel-header,
 div.mat-expansion-panel-body,
@@ -100,7 +100,6 @@ form.app-background-card.mat-elevation-z2.ng-untouched.ng-pristine.ng-valid {
 
 span.mat-button-toggle-label-content,
 mat-header-row.mat-header-row.cdk-header-row.ng-star-inserted,
-div.mat-menu-content,
 .fr-modal .fr-command.fr-btn.fr-dropdown.fr-active,
 .fr-popup .fr-command.fr-btn.fr-dropdown.fr-active,
 .fr-toolbar .fr-command.fr-btn.fr-dropdown.fr-active,
@@ -112,9 +111,7 @@ div.save-status-line,
 th.mat-header-cell.cdk-header-cell.cdk-column-creationdate.mat-column-creationdate,
 th.mat-header-cell.cdk-header-cell.cdk-column-expand.mat-column-expand,
 th.mat-header-cell.cdk-header-cell.cdk-column-title.mat-column-title,
-td.ng-star-inserted,
-.app-theme div.app-accent-default-background,
-span.mat-badge-content {
+td.ng-star-inserted {
   background-color:var(--QuaternaryBackgroundColor)!important;
 }
 
@@ -160,16 +157,13 @@ button div span,
 span.no-score.ng-star-inserted,
 mat-cell.mat-cell.cdk-cell.objective-cell.cdk-column-obj-a15680ee-f68f-4d88-830b-7f1d2c5f6ef7.mat-column-obj-a15680ee-f68f-4d88-830b-7f1d2c5f6ef7.ng-star-inserted,
 mat-cell.mat-cell.cdk-cell.objective-cell.cdk-column-obj-7b5d7d63-19ed-4ac1-b9e4-3ca576401d5f.mat-column-obj-7b5d7d63-19ed-4ac1-b9e4-3ca576401d5f.ng-star-inserted,
-mat-cell span span,
 mat-panel-title.mat-expansion-panel-header-title,
 span.mat-expansion-indicator,
 at-cell div,
-span span span,
 mat-card-title.mat-card-title,
 mat-card-subtitle.mat-card-subtitle,
 span.description,
 h4,
-mat-header-cell.mat-header-cell.cdk-header-cell,
 mat-cell.mat-cell.cdk-cell.cdk-column-reviewed.mat-column-reviewed,
 .fa-youtube:before,
 .fa-pencil-alt:before,
@@ -257,7 +251,11 @@ mat-expansion-panel-header.mat-expansion-panel-header,
 div.mat-expansion-panel-body,
 mat-card.mat-card.ng-star-inserted,
 mat-card.mat-card,
-div.rubric-header {
+div.rubric-header,
+div.mat-menu-,
+mat-dialog-container.mat-dialog-container.ng-trigger.ng-trigger-dialogContainer.ng-star-inserted,
+form.app-background-card.mat-elevation-z2.ng-untouched.ng-pristine.ng-valid,
+div.mat-menu-content {
   border:2px solid var(--PrimaryAccentTextColor)!important;
 }
 
@@ -325,7 +323,10 @@ mat-chip.mat-chip.mat-primary.mat-standard-chip {
   border-top:4px solid var(--SecondaryAccentTextColor)!important;
 }
 
-
+span.mat-badge-content,
+.app-theme div.app-accent-default-background {
+  background-color:var(--SecondaryAccentTextColor)!important;
+}
 
 div.divider.ng-star-inserted {
   padding: 1.8em;
