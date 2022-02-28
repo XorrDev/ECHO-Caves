@@ -1,0 +1,63 @@
+div.home-ct {
+  width:50%;
+  margin: auto;
+}
+
+div.mat-card-image.course-card-image.rounded.ng-star-inserted {
+  height: 150px;
+  width: 150px;
+}
+
+mat-card.mat-card.mat-focus-indicator.course-card.ng-star-inserted {
+
+  width: 450px;
+}
+
+div.color-band.rounded {
+  display: none;
+}
+
+div mat-card-title-group div {
+  display: inline-block;
+  height: 10px;
+  padding: 0;
+}
+
+mat-card-title-group.mat-card-title-group {
+  margin-left:50px;
+  height: 100px;
+  width: 100%;
+}
+
+mat-card.mat-card.course-card {
+  display: flex;
+}
+
+div.mat-ripple.card-click {
+  width: 100%;
+  display: flex;
+}
+
+mat-card-actions.mat-card-actions.mat-card-actions-align-end {
+  height: 50px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin:0;
+}
+
+mat-divider.mat-divider.card-divider.mat-divider-horizontal {
+  display: none;
+}
+
+div.score-ct {
+  position: absolute;
+  top: 110px;
+  left: 185px;
+}
+
+div.progress-ct.ng-star-inserted {
+  position: absolute;
+  top: 20px;
+  right:0;
+}
