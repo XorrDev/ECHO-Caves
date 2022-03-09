@@ -207,9 +207,7 @@ span.mat-badge-content,
 lib-managed-html div div,
 h1.mat-dialog-title.dialog-title,
 span.mat-button-toggle-label-content,
-mat-cell.mat-cell.cdk-cell.cdk-column-title.mat-column-title,
-.app-theme .mat-cell,
-div.fr-view.content span {
+mat-cell.mat-cell.cdk-cell.cdk-column-title.mat-column-title {
   color:var(--PrimaryTextColor)!important;
 }
 
@@ -289,8 +287,7 @@ a.text-only,
 mat-icon.mat-icon.notranslate.activity-icon.fal.fa-folder-open.mat-icon-no-color.ng-star-inserted,
 th.mat-header-cell.cdk-header-cell.cdk-column-creationdate.mat-column-creationdate,
 div.note.ng-star-inserted strong span,
-span.submit-disabled.ng-star-inserted,
-div.fr-view.content a span {
+span.submit-disabled.ng-star-inserted {
   color:var(--PrimaryAccentTextColor)!important;
 }
 
@@ -354,8 +351,7 @@ span.mat-button-toggle-label-content {
 span.score.pass-color.ng-star-inserted {
   color:var(--GradePassColor)!important;
 }
-span.score.fail-color.ng-star-inserted,
-div .past-due {
+span.score.fail-color.ng-star-inserted {
   color:var(--GradeFailColor)!important;
 }
 /*+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+     Menu Color     =+=+=+=+=*/
@@ -473,9 +469,7 @@ tbody tr td,
 lib-managed-html div p,
 lib-managed-html div ol,
 lib-managed-html.comment,
-.app-theme .mat-button-toggle-group-appearance-standard .mat-button-toggle+.mat-button-toggle,
-span ul li,
-span u {
+.app-theme .mat-button-toggle-group-appearance-standard .mat-button-toggle+.mat-button-toggle {
   background-color:transparent!important;
 }
 
