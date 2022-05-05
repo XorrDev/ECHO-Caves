@@ -1,21 +1,21 @@
 :root {
-  --PrimaryBackgroundColor:#181818;
-  --SecondaryBackgroundColor:#282828;
-  --TertiaryBackgroundColor:#383838;
-  --QuaternaryBackgroundColor:#484848;
-  --QuinaryBackgroundColor:#585858;
-  --TertiaryGaugeTransparency:#383838BF;
+  --PrimaryBackgroundColor:#11151C;
+  --SecondaryBackgroundColor:#19212E;
+  --TertiaryBackgroundColor:#212D40;
+  --QuaternaryBackgroundColor:#273246;
+  --QuinaryBackgroundColor:#2C374B;
+  --TertiaryGaugeTransparency:#212D40BF;
   
   --PrimaryTextColor:#ffffff;
-  --SecondaryTextColor:#B3B3B3;
+  --SecondaryTextColor:#a1b8e3;
   --PrimaryAccentTextColor:#CF86FF;
   --SecondaryAccentTextColor:#00ACFF;
 
   --GradePassColor:#00DF00;
   --GradeFailColor:#ff5f59;
   
-  --PrimaryMenuColor:#585858;
-  --SecondaryMenuColor:#484848;
+  --PrimaryMenuColor:#2C374B;
+  --SecondaryMenuColor:#485265;
 }
 
 
@@ -209,7 +209,10 @@ h1.mat-dialog-title.dialog-title,
 span.mat-button-toggle-label-content,
 mat-cell.mat-cell.cdk-cell.cdk-column-title.mat-column-title,
 .app-theme .mat-cell,
-div.fr-view.content span {
+div.fr-view.content span,
+.app-dark-theme .app-foreground-secondary-text,
+.app-light-theme .app-foreground-secondary-text {
+  color:#FFF;
   color:var(--PrimaryTextColor)!important;
 }
 
@@ -439,10 +442,11 @@ img.app-logo {
 
 
 div.side-menu-logo-ct {
-  background-image:url(https://docs.google.com/drawings/d/e/2PACX-1vQ_rWTP5cJh1N_rg6QI87_oCsoBKPN8pzTGzqwSmXsWd2iU4soYdVdAwxvCp53xENb358TpJX7z4j4T/pub?w=1150&h=150)!important;
-  background-size:410px 55px!important;
+  background-image:url(https://docs.google.com/drawings/d/e/2PACX-1vS2jYK8xvsDJ4gK_sY0Z4YoFtU6FXkAY-wDX3h99o6G7oJS8gqkQNCYOzvW1bB8K9q8V83s5_-9DZ3X/pub?w=768&h=256)!important;
+  background-size:210px 70px!important;
   margin-left:5px!important;
   margin-top:5px!important;
+  height: 70px;
 }
 
 .app-theme .mat-button-toggle-group-appearance-standard .mat-button-toggle+.mat-button-toggle {
@@ -496,12 +500,12 @@ div.detail-ct div.score-ct, div.progress-label, mat-card-actions.mat-card-action
 
 
 span.app-title {
-  background:url(https://docs.google.com/drawings/d/e/2PACX-1vQj2TvnLq36uO3FL1h3O-_XpqsyMy2vPgqho1WTMUZuYJ0idWVBoACPrJtpmbiVslqE795FpC6whi2j/pub?w=1800&h=148)!important;
-  background-size:800px!important;
+  background:url(https://docs.google.com/drawings/d/e/2PACX-1vS2jYK8xvsDJ4gK_sY0Z4YoFtU6FXkAY-wDX3h99o6G7oJS8gqkQNCYOzvW1bB8K9q8V83s5_-9DZ3X/pub?w=768&h=256)!important;
+  background-size:210px!important;
   font-size:0!important;
-  height:60px!important;
-  margin-left:-50px!important;
-  width:440px!important;
+  height:70px!important;
+  margin:0;
+   width:210px!important;
 }
 
 
@@ -530,4 +534,6 @@ lib-managed-html.ng-star-inserted {
   padding: 2em;
 }
 
-
+mat-toolbar.mat-toolbar.main-toolbar.mat-elevation-z4.app-primary-dark-background.app-primary-dark-contrast-color.buzz-main-header.mat-primary.mat-toolbar-single-row {
+  height: 70px;
+}

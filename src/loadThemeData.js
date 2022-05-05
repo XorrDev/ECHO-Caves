@@ -48,8 +48,10 @@ function loadTheme() {
 
 function getThemeStyleSheet() {
     let link = document.createElement("link");
-    link.href = chrome.extension.getURL("ConvertedPageTheme.css");
+    link.href = chrome.runtime.getURL("ConvertedPageTheme.css");
     link.rel = "stylesheet";
     link.type = "text/css";
     document.head.appendChild(link);
 }
+
+console.log("a");
