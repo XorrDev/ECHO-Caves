@@ -54,7 +54,8 @@ input#fr-link-insert-layer-text-5,
 .fr-popup .fr-input-line textarea,
 div.form-ct,
 div.rubric-header,
-button.mat-button-toggle-button.mat-focus-indicator {
+button.mat-button-toggle-button.mat-focus-indicator,
+div.student-objective-summary.ng-star-inserted {
   background-color:var(--PrimaryBackgroundColor)!important;
 }
 
@@ -123,7 +124,8 @@ div.color-band.rounded,
 div.fr-toolbar.fr-desktop.fr-top,
 div.fr-popup,
 mat-chip.mat-chip.mat-primary.mat-standard-chip,
-.app-theme .mat-progress-bar-buffer {
+.app-theme .mat-progress-bar-buffer,
+snack-bar-container.mat-snack-bar-container.ng-trigger.ng-trigger-state.mat-snack-bar-center.ng-star-inserted {
   background-color:var(--QuinaryBackgroundColor)!important;
 }
 
@@ -211,8 +213,8 @@ mat-cell.mat-cell.cdk-cell.cdk-column-title.mat-column-title,
 .app-theme .mat-cell,
 div.fr-view.content span,
 .app-dark-theme .app-foreground-secondary-text,
-.app-light-theme .app-foreground-secondary-text {
-  color:#FFF;
+.app-light-theme .app-foreground-secondary-text,
+.fr-toolbar .fr-command.fr-btn {
   color:var(--PrimaryTextColor)!important;
 }
 
@@ -228,7 +230,8 @@ tbody tr td {
 
 
 button svg path,
-.fr-svg {
+.fr-svg,
+.fr-command.fr-btn+.fr-dropdown-menu .fr-dropdown-wrapper .fr-dropdown-content ul.fr-dropdown-list li a svg path {
   fill:var(--PrimaryTextColor)!important;
 }
 
@@ -532,4 +535,13 @@ lib-managed-html.ng-star-inserted {
 
 mat-toolbar.mat-toolbar.main-toolbar.mat-elevation-z4.app-primary-dark-background.app-primary-dark-contrast-color.buzz-main-header.mat-primary.mat-toolbar-single-row {
   height: 70px;
+}
+
+.objective-speedometer {
+  border-radius: 15px;
+  border: 2px solid var(--PrimaryAccentTextColor);
+}
+
+*, :before, :after {
+  box-sizing: border-box;
 }
