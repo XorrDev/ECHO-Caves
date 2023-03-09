@@ -1,5 +1,8 @@
 # ECHO-Caves
 
+
+!(Echo Caves)[https://lh3.googleusercontent.com/PjNgv-Zmh2VRaI3jSZ5FsQv5OczwML7wS5zcnHe6IpgzgOcK5eyZRJRizDV6PupDon47T-fHRBJ3kuxZo6bc3LcxGLU=w640-h400-e365-rj-sc0x00ffffff]
+
 ECHO Caves is a reverse engineered dark mode built by a former New Tech student solely for the Agilix Buzz Echo Portal provided to the New Tech Schools. The idea behind this project was to create a flexible and lightweight option to add a 3rd party dark mode on top of the existing framework. It accomplishes this by injecting css files directly into the echo page under any echo domain. If you are a student or member of the New Tech / NTN network, feel free to contribute to this source code. 
 
 (This makes for a pretty damn good Senior Project / Senior Defense)
